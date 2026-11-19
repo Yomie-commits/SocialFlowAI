@@ -1,0 +1,1577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SocialFlow AI | AI Social Media Content &amp; Marketing Automation</title>
+<meta name="description" content="SocialFlow AI helps businesses in Kenya and beyond plan content, generate platform-specific captions, manage approvals and track social media performance with AI-powered automation.">
+<meta name="keywords" content="AI social media automation, social media content calendar, AI caption writing, social media marketing Kenya, content approval workflow, Nairobi digital marketing automation">
+<meta name="author" content="Naomi Mwangi">
+<meta name="theme-color" content="#0A1530">
+<link rel="canonical" href="https://yomie-commits.github.io/SocialFlowAI/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SocialFlow AI | Your Social Media Strategy, Planned with AI">
+<meta property="og:description" content="Plan content, generate platform-specific captions, manage approvals and monitor performance through intelligent automation.">
+<meta property="og:url" content="https://yomie-commits.github.io/SocialFlowAI/">
+<meta property="og:image" content="https://yomie-commits.github.io/SocialFlowAI/og-image.png">
+<meta property="og:locale" content="en_KE">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SocialFlow AI | AI Social Media Automation">
+<meta name="twitter:description" content="Plan, create and organise your social media content with AI.">
+<meta name="twitter:image" content="https://yomie-commits.github.io/SocialFlowAI/og-image.png">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230A1530'/%3E%3Cpath d='M18 40c8 0 10-16 18-16s8 8 10 8' stroke='%23A78BFA' stroke-width='6' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='46' cy='22' r='5' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "name": "SocialFlow AI",
+      "description": "AI-powered social media content planning, caption writing, approval workflows and performance reporting for businesses.",
+      "url": "https://yomie-commits.github.io/SocialFlowAI/",
+      "email": "mwanginaomi42@gmail.com",
+      "telephone": "+254792002230",
+      "areaServed": ["KE", "Worldwide"],
+      "address": {"@type": "PostalAddress", "addressLocality": "Nairobi", "addressCountry": "KE"},
+      "founder": {"@type": "Person", "name": "Naomi Mwangi", "jobTitle": "AI Automation Specialist", "sameAs": "https://www.linkedin.com/in/naomi-njeri-m/"},
+      "priceRange": "KES 10,000 - KES 45,000+"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Does SocialFlow AI guarantee more followers or viral posts?", "acceptedAnswer": {"@type": "Answer", "text": "No. SocialFlow AI helps you plan, create and organise content consistently and track results. Growth depends on your audience, offer, content quality and consistency, so we don't promise specific follower numbers or viral reach."}},
+        {"@type": "Question", "name": "Will anything be posted without my approval?", "acceptedAnswer": {"@type": "Answer", "text": "No. Every post goes through an approval step. You or your team approve content before it is scheduled or published."}},
+        {"@type": "Question", "name": "What is the difference between the implementation fee and monthly support?", "acceptedAnswer": {"@type": "Answer", "text": "The implementation fee is a one-off payment to set up your workflows. Monthly support is optional and covers updates, adjustments and help. Third-party tool subscriptions are paid directly to those providers."}}
+      ]
+    }
+  ]
+}
+</script>
+<style>
+:root{
+  --navy-950:#060E24; --navy-900:#0A1530; --navy-800:#0F1F45; --navy-700:#1B2D5E; --navy-600:#2B3F78;
+  --purple-700:#5B21B6; --purple-600:#6D28D9; --purple-500:#8B5CF6; --purple-400:#A78BFA; --purple-100:#EDE9FE; --purple-50:#F5F3FF;
+  --ink:#0F172A; --body:#334155; --muted:#5B6478; --line:#E3E7F0; --soft:#F6F7FB; --white:#fff;
+  --ok:#0F8A5F; --ok-bg:#E6F6EF; --warn:#A35A00; --warn-bg:#FFF4E0;
+  --radius:16px; --radius-sm:10px; --shadow:0 10px 30px -12px rgba(10,21,48,.25); --shadow-lg:0 30px 60px -20px rgba(10,21,48,.45);
+  --maxw:1180px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{margin:0;font-family:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--body);background:var(--white);line-height:1.6;font-size:16px;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{color:var(--ink);line-height:1.2;margin:0 0 .5em;letter-spacing:-.02em}
+h1{font-size:clamp(2.1rem,4.6vw,3.6rem);font-weight:800}
+h2{font-size:clamp(1.7rem,3.2vw,2.5rem);font-weight:800}
+h3{font-size:1.15rem;font-weight:700}
+p{margin:0 0 1em}
+a{color:var(--purple-600)}
+img,svg{max-width:100%}
+.container{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--purple-600);color:#fff;padding:10px 16px;border-radius:8px;z-index:200}
+.skip:focus{left:8px}
+:focus-visible{outline:3px solid var(--purple-500);outline-offset:3px;border-radius:6px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font:inherit;font-weight:700;font-size:.98rem;padding:13px 22px;border-radius:12px;border:2px solid transparent;text-decoration:none;cursor:pointer;transition:transform .15s,box-shadow .15s,background .15s;line-height:1.2}
+.btn:hover{transform:translateY(-1px)}
+.btn-primary{background:var(--purple-600);color:#fff;box-shadow:0 10px 24px -10px rgba(109,40,217,.8)}
+.btn-primary:hover{background:var(--purple-700)}
+.btn-light{background:#fff;color:var(--navy-900)}
+.btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.35)}
+.btn-ghost:hover{border-color:#fff}
+.btn-outline{background:#fff;color:var(--navy-900);border-color:var(--line)}
+.btn-outline:hover{border-color:var(--purple-500);color:var(--purple-700)}
+.btn-sm{padding:8px 14px;font-size:.88rem;border-radius:9px}
+.btn-block{width:100%}
+
+/* header */
+.site-header{position:sticky;top:0;z-index:100;background:rgba(10,21,48,.92);backdrop-filter:saturate(1.4) blur(10px);-webkit-backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid rgba(255,255,255,.08)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:70px}
+.brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-weight:800;font-size:1.15rem;letter-spacing:-.01em}
+.brand span em{font-style:normal;color:var(--purple-400)}
+.nav-links{display:flex;align-items:center;gap:4px;list-style:none;margin:0;padding:0}
+.nav-links a{color:#CBD3E6;text-decoration:none;font-weight:600;font-size:.92rem;padding:8px 11px;border-radius:8px}
+.nav-links a:hover,.nav-links a.active{color:#fff;background:rgba(255,255,255,.08)}
+.nav-cta{margin-left:10px}
+.nav-toggle{display:none;background:none;border:1px solid rgba(255,255,255,.25);color:#fff;border-radius:10px;width:44px;height:44px;cursor:pointer}
+@media (max-width:1020px){
+  .nav-toggle{display:inline-flex;align-items:center;justify-content:center}
+  .nav-links{position:absolute;top:70px;left:0;right:0;flex-direction:column;align-items:stretch;background:var(--navy-900);padding:12px 20px 22px;gap:2px;border-bottom:1px solid rgba(255,255,255,.1);display:none}
+  .nav-links.open{display:flex}
+  .nav-links a{display:block;padding:13px 12px;font-size:1.02rem}
+  .nav-cta a{text-align:center}
+  .nav-cta{margin:8px 0 0}
+}
+
+/* hero */
+.hero{position:relative;background:radial-gradient(1200px 600px at 85% -10%,rgba(139,92,246,.45),transparent 60%),radial-gradient(800px 500px at -10% 110%,rgba(109,40,217,.35),transparent 60%),var(--navy-900);color:#CBD3E6;overflow:hidden;padding:80px 0 96px}
+.hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:48px 48px;mask-image:linear-gradient(to bottom,#000,transparent 85%);-webkit-mask-image:linear-gradient(to bottom,#000,transparent 85%)}
+.hero-grid{position:relative;display:grid;grid-template-columns:1.02fr 1fr;gap:56px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:.82rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--purple-400);margin-bottom:18px}
+.hero .eyebrow{background:rgba(139,92,246,.14);border:1px solid rgba(167,139,250,.3);padding:6px 12px;border-radius:999px;color:#DDD6FE}
+.hero h1{color:#fff}
+.hero h1 .accent{background:linear-gradient(90deg,#C4B5FD,#8B5CF6);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-lead{font-size:1.15rem;max-width:560px;color:#CBD3E6;margin-bottom:30px}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:28px}
+.hero-meta{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:.9rem;color:#A9B4CF;list-style:none;padding:0;margin:0}
+.hero-meta li{display:flex;align-items:center;gap:7px}
+.hero-meta svg{color:var(--purple-400);flex:none}
+@media (max-width:960px){.hero-grid{grid-template-columns:1fr}.hero{padding:56px 0 72px}}
+
+/* mock dashboard */
+.mock{background:#fff;border-radius:18px;box-shadow:var(--shadow-lg);overflow:hidden;color:var(--body);font-size:12px;border:1px solid rgba(255,255,255,.2)}
+.mock-bar{display:flex;align-items:center;gap:6px;padding:10px 14px;background:#F1F3F9;border-bottom:1px solid var(--line)}
+.mock-bar i{width:9px;height:9px;border-radius:50%;background:#D5DAE6;display:block}
+.mock-bar b{margin-left:10px;font-weight:600;color:var(--muted);font-size:11px}
+.mock-body{display:grid;grid-template-columns:52px 1fr}
+.mock-side{background:var(--navy-900);padding:14px 0;display:flex;flex-direction:column;align-items:center;gap:14px}
+.mock-side span{width:24px;height:24px;border-radius:7px;background:rgba(255,255,255,.12);display:block}
+.mock-side span.on{background:var(--purple-500)}
+.mock-main{padding:16px}
+.mock-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.mock-head strong{color:var(--ink);font-size:13px}
+.pill{display:inline-flex;align-items:center;gap:5px;font-size:10.5px;font-weight:700;padding:3px 8px;border-radius:999px;background:var(--purple-50);color:var(--purple-700)}
+.pill.ok{background:var(--ok-bg);color:var(--ok)}
+.pill.warn{background:var(--warn-bg);color:var(--warn)}
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.day{background:var(--soft);border-radius:8px;padding:7px 5px;min-height:96px}
+.day small{display:block;font-weight:700;color:var(--muted);font-size:10px;margin-bottom:5px}
+.chip{display:block;border-radius:5px;padding:4px 5px;margin-bottom:4px;font-size:9.5px;font-weight:600;line-height:1.25;color:#fff}
+.c-ig{background:#B83280}.c-fb{background:#2B4FB8}.c-in{background:#0A66C2}.c-tt{background:#111827}.c-x{background:#475569}.c-p{background:var(--purple-600)}
+.mock-row{display:grid;grid-template-columns:1fr 1.2fr;gap:10px;margin-top:10px}
+.mini{border:1px solid var(--line);border-radius:10px;padding:10px}
+.mini h5{margin:0 0 6px;font-size:11px;color:var(--ink)}
+.mini .line{display:flex;justify-content:space-between;align-items:center;padding:4px 0;border-top:1px dashed var(--line);font-size:10.5px}
+.mini .line:first-of-type{border-top:0}
+.hero-visual{position:relative}
+.float{position:absolute;background:#fff;border-radius:12px;box-shadow:var(--shadow);padding:10px 12px;font-size:12px;color:var(--ink);font-weight:600;display:flex;align-items:center;gap:8px}
+.float .dot{width:26px;height:26px;border-radius:8px;display:grid;place-items:center;color:#fff}
+.float-1{left:-26px;bottom:-22px}
+.float-2{right:-18px;top:-20px}
+@media (max-width:560px){.float{display:none}.week{grid-template-columns:repeat(4,1fr)}.day:nth-child(n+5){display:none}.mock-row{grid-template-columns:1fr}}
+
+/* sections */
+section{padding:96px 0}
+.section-head{max-width:720px;margin-bottom:48px}
+.section-head.center{margin-left:auto;margin-right:auto;text-align:center}
+.section-head p{font-size:1.08rem;color:var(--muted)}
+.bg-soft{background:var(--soft)}
+.bg-navy{background:var(--navy-900);color:#CBD3E6}
+.bg-navy h2,.bg-navy h3{color:#fff}
+.bg-navy .section-head p{color:#A9B4CF}
+@media (max-width:640px){section{padding:68px 0}}
+
+.grid{display:grid;gap:22px}
+.g-4{grid-template-columns:repeat(4,1fr)}
+.g-3{grid-template-columns:repeat(3,1fr)}
+.g-2{grid-template-columns:repeat(2,1fr)}
+@media (max-width:980px){.g-4{grid-template-columns:repeat(2,1fr)}.g-3{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:620px){.g-4,.g-3,.g-2{grid-template-columns:1fr}}
+
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:26px;transition:border-color .2s,box-shadow .2s,transform .2s}
+.card:hover{border-color:#D3CCF5;box-shadow:var(--shadow);transform:translateY(-2px)}
+.card p{margin:0;color:var(--muted);font-size:.97rem}
+.icon{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;background:var(--purple-50);color:var(--purple-600);margin-bottom:16px}
+.icon svg{width:24px;height:24px}
+.benefit .icon{background:var(--navy-900);color:var(--purple-400)}
+
+/* showcase tabs */
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px}
+.tab{font:inherit;font-weight:700;font-size:.93rem;padding:10px 16px;border-radius:10px;border:1px solid var(--line);background:#fff;color:var(--navy-800);cursor:pointer}
+.tab[aria-selected="true"]{background:var(--navy-900);color:#fff;border-color:var(--navy-900)}
+.bg-navy .tab{background:rgba(255,255,255,.06);color:#CBD3E6;border-color:rgba(255,255,255,.14)}
+.bg-navy .tab[aria-selected="true"]{background:var(--purple-600);color:#fff;border-color:var(--purple-600)}
+.panel[hidden]{display:none}
+.showcase{display:grid;grid-template-columns:1.35fr 1fr;gap:40px;align-items:center}
+.showcase .copy ul{padding:0;list-style:none;margin:18px 0 0}
+.showcase .copy li{display:flex;gap:10px;margin-bottom:10px;color:#CBD3E6}
+.showcase .copy li svg{flex:none;color:var(--purple-400);margin-top:3px}
+.note{font-size:.82rem;color:#8C97B3;margin-top:14px}
+@media (max-width:900px){.showcase{grid-template-columns:1fr}}
+.caption-box{background:var(--soft);border-radius:10px;padding:10px;font-size:11.5px;line-height:1.5;color:var(--ink);white-space:pre-line}
+.bar-chart{display:flex;align-items:flex-end;gap:8px;height:110px;padding:8px 4px 0;border-bottom:1px solid var(--line)}
+.bar-chart span{flex:1;background:linear-gradient(180deg,var(--purple-500),var(--purple-700));border-radius:5px 5px 0 0}
+.bar-labels{display:flex;gap:8px;padding:4px}
+.bar-labels small{flex:1;text-align:center;font-size:9.5px;color:var(--muted)}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:10px}
+.kpi{background:var(--soft);border-radius:10px;padding:9px}
+.kpi small{display:block;color:var(--muted);font-size:10px}
+.kpi b{font-size:15px;color:var(--ink)}
+.appr{display:flex;align-items:center;justify-content:space-between;gap:8px;border:1px solid var(--line);border-radius:10px;padding:9px 10px;margin-bottom:7px}
+.appr div{min-width:0}
+.appr b{display:block;color:var(--ink);font-size:11.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.appr small{color:var(--muted);font-size:10px}
+
+/* features */
+.feature h3{margin-bottom:8px}
+.feature ul{margin:12px 0 0;padding-left:18px;color:var(--muted);font-size:.92rem}
+.feature ul li{margin-bottom:4px}
+
+/* industries */
+.ind-panel{display:grid;grid-template-columns:1fr 1fr;gap:28px;background:#fff;border:1px solid var(--line);border-radius:20px;padding:34px}
+.ind-panel h3{font-size:1.4rem}
+.ind-panel h4{font-size:.85rem;text-transform:uppercase;letter-spacing:.06em;color:var(--purple-600);margin:18px 0 8px}
+.ind-panel ul{margin:0;padding-left:18px}
+.ind-panel li{margin-bottom:6px}
+.ideas{background:var(--soft);border-radius:14px;padding:22px}
+.ideas li{list-style:none;margin:0 0 10px;padding:10px 12px;background:#fff;border-radius:10px;border:1px solid var(--line);font-size:.93rem;color:var(--ink)}
+.ideas ul{padding:0}
+.also{margin-top:26px;color:var(--muted);text-align:center}
+.also strong{color:var(--ink)}
+@media (max-width:860px){.ind-panel{grid-template-columns:1fr;padding:24px}}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;counter-reset:step;list-style:none;padding:0;margin:0}
+.step{position:relative;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:22px 18px}
+.step::before{counter-increment:step;content:counter(step);display:grid;place-items:center;width:36px;height:36px;border-radius:10px;background:var(--purple-600);color:#fff;font-weight:800;margin-bottom:14px}
+.step h3{font-size:1.02rem;color:#fff}
+.step p{font-size:.9rem;color:#A9B4CF;margin:0}
+.step:not(:last-child)::after{content:"→";position:absolute;right:-13px;top:28px;color:var(--purple-400);font-weight:800;z-index:1}
+@media (max-width:1100px){.steps{grid-template-columns:repeat(3,1fr)}.step:nth-child(3)::after{display:none}}
+@media (max-width:640px){.steps{grid-template-columns:1fr}.step::after{display:none}}
+
+.field{margin-bottom:16px}
+.field label,.field legend{display:block;font-weight:700;color:var(--ink);font-size:.9rem;margin-bottom:6px}
+.field fieldset{border:0;padding:0;margin:0}
+input[type=text],input[type=email],input[type=tel],input[type=datetime-local],select,textarea{width:100%;font:inherit;font-size:.95rem;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--purple-500);box-shadow:0 0 0 4px rgba(139,92,246,.15)}
+textarea{min-height:110px;resize:vertical}
+.checks{display:flex;flex-wrap:wrap;gap:8px}
+.check{position:relative}
+.check input{position:absolute;opacity:0;width:1px;height:1px}
+.check span{display:inline-block;padding:7px 12px;border-radius:999px;border:1.5px solid var(--line);font-size:.86rem;font-weight:600;cursor:pointer;color:var(--navy-800);background:#fff}
+.check input:checked+span{background:var(--purple-600);border-color:var(--purple-600);color:#fff}
+.check input:focus-visible+span{outline:3px solid var(--purple-500);outline-offset:2px}
+
+/* pricing */
+.price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;align-items:stretch}
+@media (max-width:960px){.price-grid{grid-template-columns:1fr;max-width:520px;margin:0 auto}}
+.price{background:#fff;border:1.5px solid var(--line);border-radius:20px;padding:30px;display:flex;flex-direction:column;position:relative}
+.price.featured{border-color:var(--purple-600);box-shadow:0 24px 50px -24px rgba(109,40,217,.55)}
+.price .badge{position:absolute;top:-13px;left:30px;background:var(--purple-600);color:#fff;font-size:.75rem;font-weight:800;padding:5px 12px;border-radius:999px;letter-spacing:.04em}
+.price h3{font-size:1.25rem;margin-bottom:4px}
+.price .for{color:var(--muted);font-size:.93rem;min-height:3em}
+.amount{font-size:2.2rem;font-weight:800;color:var(--ink);letter-spacing:-.03em;margin:8px 0 0}
+.amount small{font-size:.95rem;color:var(--muted);font-weight:600;letter-spacing:0}
+.once{font-size:.85rem;color:var(--muted);margin-bottom:18px}
+.price ul{list-style:none;padding:0;margin:0 0 24px;flex:1}
+.price li{display:flex;gap:10px;margin-bottom:10px;font-size:.94rem}
+.price li svg{flex:none;color:var(--purple-600);margin-top:3px}
+.costs{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}
+@media (max-width:860px){.costs{grid-template-columns:1fr}}
+.cost{border-radius:16px;padding:22px;border:1px dashed #CFC6F3;background:var(--purple-50)}
+.cost h3{font-size:1.02rem;display:flex;align-items:center;gap:8px}
+.cost p{margin:0;font-size:.93rem}
+.cost .num{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:8px;background:var(--purple-600);color:#fff;font-size:.8rem}
+.table-wrap{overflow-x:auto;margin-top:40px;border:1px solid var(--line);border-radius:16px;background:#fff}
+table{width:100%;border-collapse:collapse;min-width:680px;font-size:.93rem}
+caption{text-align:left;padding:18px 20px 6px;font-weight:800;color:var(--ink);font-size:1.05rem}
+th,td{padding:14px 20px;text-align:left;border-top:1px solid var(--line);vertical-align:top}
+thead th{background:var(--soft);color:var(--ink);font-size:.85rem;text-transform:uppercase;letter-spacing:.05em}
+tbody th{color:var(--ink);font-weight:700;width:20%}
+
+/* about */
+.about{display:grid;grid-template-columns:.85fr 1.15fr;gap:48px;align-items:center}
+.about-card{background:linear-gradient(160deg,var(--navy-900),var(--navy-700));border-radius:22px;padding:32px;color:#CBD3E6;position:relative;overflow:hidden}
+.about-card::after{content:"";position:absolute;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,rgba(139,92,246,.5),transparent 70%);right:-80px;top:-80px}
+.avatar{width:84px;height:84px;border-radius:22px;background:linear-gradient(135deg,var(--purple-500),var(--purple-700));display:grid;place-items:center;color:#fff;font-weight:800;font-size:1.8rem;margin-bottom:16px;position:relative;z-index:1}
+.about-card h3{color:#fff;font-size:1.35rem;margin-bottom:2px;position:relative;z-index:1}
+.about-card p,.about-card ul{position:relative;z-index:1}
+.about-card ul{list-style:none;padding:0;margin:18px 0 0;font-size:.93rem}
+.about-card li{padding:8px 0;border-top:1px solid rgba(255,255,255,.1)}
+.skills{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 22px}
+.skills span{background:var(--purple-50);color:var(--purple-700);font-weight:700;font-size:.85rem;padding:7px 12px;border-radius:999px}
+@media (max-width:900px){.about{grid-template-columns:1fr}}
+
+/* faq */
+.faq{max-width:820px;margin:0 auto}
+.faq details{background:#fff;border:1px solid var(--line);border-radius:14px;margin-bottom:12px;padding:0 22px}
+.faq summary{cursor:pointer;list-style:none;padding:18px 0;font-weight:700;color:var(--ink);display:flex;justify-content:space-between;gap:16px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:1.4rem;line-height:1;color:var(--purple-600);transition:transform .2s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{margin:0 0 18px;color:var(--muted)}
+
+/* contact */
+.contact{display:grid;grid-template-columns:.8fr 1.2fr;gap:40px;align-items:start}
+@media (max-width:900px){.contact{grid-template-columns:1fr}}
+.contact-info .item{display:flex;gap:14px;align-items:flex-start;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:16px;margin-bottom:12px}
+.contact-info .item .icon{margin:0;background:rgba(139,92,246,.2);color:#DDD6FE;flex:none}
+.contact-info .item b{color:#fff;display:block}
+.contact-info .item a{color:#DDD6FE;font-weight:600;word-break:break-word}
+.contact-info .item small{color:#A9B4CF}
+.form-card{background:#fff;border-radius:20px;padding:30px;color:var(--body)}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:560px){.form-row{grid-template-columns:1fr}}
+.req{color:#B42318}
+.hp{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+.consent{display:flex;gap:10px;align-items:flex-start;font-size:.9rem;margin:6px 0 18px}
+.consent input{margin-top:4px;width:18px;height:18px;accent-color:var(--purple-600)}
+.error{color:#B42318;font-size:.84rem;margin-top:5px;display:none}
+.invalid input,.invalid select,.invalid textarea{border-color:#E5484D}
+.invalid .error{display:block}
+.form-status{display:none;border-radius:14px;padding:18px;margin-top:16px}
+.form-status.show{display:block}
+.form-status.ok{background:var(--ok-bg);color:#064E3B}
+.form-status.err{background:#FDECEC;color:#7A1C1C}
+.form-status h4{margin:0 0 6px;color:inherit}
+.form-status .btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.btn-wa{background:#128C4A;color:#fff}
+.btn-wa:hover{background:#0E7340}
+.form-hint{font-size:.82rem;color:var(--muted);margin-top:12px}
+
+/* cta band */
+.cta-band{background:linear-gradient(120deg,var(--purple-700),var(--purple-500));border-radius:24px;padding:46px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;color:#EDE9FE}
+.cta-band h2{color:#fff;margin-bottom:6px}
+.cta-band p{margin:0}
+
+/* footer */
+footer{background:var(--navy-950);color:#8C97B3;padding:56px 0 30px;font-size:.92rem}
+.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px}
+@media (max-width:820px){.foot{grid-template-columns:1fr 1fr}}
+footer h4{color:#fff;font-size:.95rem;margin-bottom:12px}
+footer ul{list-style:none;padding:0;margin:0}
+footer li{margin-bottom:8px}
+footer a{color:#B9C2D9;text-decoration:none}
+footer a:hover{color:#fff;text-decoration:underline}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.08);margin-top:36px;padding-top:22px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+
+.wa-float{position:fixed;right:20px;bottom:20px;z-index:90;width:58px;height:58px;border-radius:50%;background:#128C4A;color:#fff;display:grid;place-items:center;box-shadow:0 12px 26px -8px rgba(0,0,0,.45)}
+.wa-float:hover{background:#0E7340}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);background:var(--navy-900);color:#fff;padding:12px 18px;border-radius:12px;font-weight:600;font-size:.92rem;opacity:0;pointer-events:none;transition:all .25s;z-index:120}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* ===== interactive components ===== */
+.mock-side button.side-btn{width:30px;height:30px;border-radius:8px;border:0;background:rgba(255,255,255,.1);color:#CBD3E6;display:grid;place-items:center;cursor:pointer;padding:0}
+.mock-side button.side-btn:hover{background:rgba(255,255,255,.22)}
+.mock-side button.side-btn[aria-selected="true"]{background:var(--purple-500);color:#fff}
+.mock-side button svg{width:16px;height:16px}
+#hero-mock .mock-main{min-height:292px}
+button.chip{font-family:inherit;font-size:9.5px;font-weight:600;border:0;width:100%;text-align:left;cursor:pointer;transition:transform .12s,opacity .2s,box-shadow .12s}
+button.chip:hover{transform:translateY(-1px);box-shadow:0 4px 10px -4px rgba(0,0,0,.45)}
+button.chip.sel{outline:2px solid var(--purple-500);outline-offset:1px}
+button.chip.dim{opacity:.15}
+.hv-info{margin:8px 0 0;font-size:11px;color:var(--muted);min-height:1.6em}
+.hv-info b{color:var(--ink)}
+button.pill{border:0;font-family:inherit;cursor:pointer}
+button.pill:hover{filter:brightness(.94)}
+.mini-btns{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.mini-btn{font:inherit;font-size:11px;font-weight:700;padding:5px 10px;border-radius:999px;border:1px solid var(--line);background:#fff;color:var(--navy-800);cursor:pointer}
+.mini-btn:hover{border-color:var(--purple-400)}
+.mini-btn[aria-pressed="true"]{background:var(--navy-900);color:#fff;border-color:var(--navy-900)}
+.appr-actions{display:flex;gap:5px;align-items:center;flex:none}
+.icon-btn{font:inherit;font-size:10.5px;font-weight:700;border-radius:7px;border:1px solid var(--line);background:#fff;padding:4px 7px;cursor:pointer;color:var(--navy-800)}
+.icon-btn.ok{color:var(--ok);border-color:#BFE6D3}
+.icon-btn.warn{color:var(--warn);border-color:#F2C98A}
+.icon-btn:hover{filter:brightness(.95)}
+.bar-chart span{transition:height .45s cubic-bezier(.2,.8,.2,1)}
+.spark path{transition:d .45s ease}
+.feature details.ex{margin-top:14px;border-top:1px dashed var(--line);padding-top:10px}
+.feature details.ex summary{cursor:pointer;font-weight:700;font-size:.88rem;color:var(--purple-700);list-style:none}
+.feature details.ex summary::-webkit-details-marker{display:none}
+.feature details.ex summary::after{content:" +"}
+.feature details.ex[open] summary::after{content:" −"}
+.feature details.ex p{margin-top:8px;font-size:.88rem;background:var(--purple-50);border-radius:10px;padding:10px 12px;color:var(--navy-800)}
+
+.steps li.step{padding:0;background:none;border:0}
+.steps li.step::before{display:none}
+.step-btn{all:unset;box-sizing:border-box;display:flex;flex-direction:column;justify-content:flex-start;height:100%;width:100%;cursor:pointer;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:22px 18px;transition:background .2s,border-color .2s}
+.step-btn::before{counter-increment:step;content:counter(step);display:grid;place-items:center;width:36px;height:36px;border-radius:10px;background:rgba(139,92,246,.28);color:#fff;font-weight:800;margin-bottom:14px}
+.step-btn:hover{border-color:rgba(167,139,250,.6)}
+.step-btn[aria-pressed="true"]{background:rgba(109,40,217,.3);border-color:var(--purple-400)}
+.step-btn[aria-pressed="true"]::before{background:var(--purple-600)}
+.step-btn:focus-visible{outline:3px solid var(--purple-400);outline-offset:3px}
+.step-detail{margin-top:22px;display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:22px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:26px}
+.step-detail h3{margin-bottom:6px}
+.step-detail p{margin:0;color:#A9B4CF}
+.step-detail h4{color:var(--purple-400);font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;margin:0 0 8px}
+.step-detail ul{margin:0;padding-left:18px;color:#CBD3E6;font-size:.93rem}
+.step-detail li{margin-bottom:5px}
+.step-controls{display:flex;gap:10px;justify-content:center;margin-top:18px;flex-wrap:wrap}
+@media (max-width:820px){.step-detail{grid-template-columns:1fr}}
+
+.reco{display:grid;grid-template-columns:1.15fr 1fr;gap:28px;background:#fff;border:1px solid var(--line);border-radius:20px;padding:28px;margin-bottom:40px}
+.reco h3{font-size:1.2rem;margin-bottom:4px}
+.reco > div > p{color:var(--muted);font-size:.94rem}
+.range-row{display:flex;align-items:center;gap:12px}
+input[type=range]{flex:1;accent-color:var(--purple-600);height:28px}
+.range-val{font-weight:800;color:var(--ink);min-width:2ch;text-align:center;font-size:1.15rem}
+.reco-result{background:linear-gradient(150deg,var(--navy-900),var(--navy-700));color:#CBD3E6;border-radius:16px;padding:24px;display:flex;flex-direction:column}
+.reco-result small{text-transform:uppercase;letter-spacing:.08em;font-weight:700;color:var(--purple-400);font-size:.75rem}
+.reco-result .rname{font-size:1.8rem;font-weight:800;color:#fff;margin:4px 0 0}
+.reco-result .rprice{font-weight:700;color:#DDD6FE;margin-bottom:12px}
+.reco-result ul{padding-left:18px;margin:0 0 18px;font-size:.93rem;flex:1}
+.reco-result li{margin-bottom:5px}
+.price .rec-flag{display:none;position:absolute;top:-13px;right:24px;background:var(--ok);color:#fff;font-size:.72rem;font-weight:800;padding:5px 12px;border-radius:999px;letter-spacing:.04em}
+.price.recommended{border-color:var(--ok);box-shadow:0 0 0 4px rgba(15,138,95,.15),var(--shadow)}
+.price.recommended .rec-flag{display:block}
+@media (max-width:860px){.reco{grid-template-columns:1fr;padding:22px}}
+
+
+.faq-search{max-width:820px;margin:0 auto 18px;position:relative}
+.faq-search input{padding-left:44px;height:50px}
+.faq-search svg{position:absolute;left:15px;top:50%;transform:translateY(-50%);color:var(--muted)}
+.faq-empty{text-align:center;color:var(--muted);display:none}
+.char-count{font-size:.78rem;color:var(--muted);text-align:right;margin:4px 0 0}
+
+.js .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+.js .reveal.in{opacity:1;transform:none}
+.js .card.reveal.in:hover{transform:translateY(-2px)}
+@media (prefers-reduced-motion:reduce){.js .reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91A9.86 9.86 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.24-8.23a8.23 8.23 0 0 1 8.23 8.24c0 4.54-3.7 8.23-8.22 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.13-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48a.92.92 0 0 0-.66.31c-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.29Z"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+</svg>
+
+<header class="site-header">
+  <nav class="container nav" aria-label="Main">
+    <a class="brand" href="#home" aria-label="SocialFlow AI home">
+      <svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#6D28D9"/><path d="M16 40c8 0 10-16 18-16s8 8 12 8" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round"/><circle cx="47" cy="21" r="5" fill="#DDD6FE"/></svg>
+      <span>SocialFlow <em>AI</em></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#industries">Industries</a></li>
+      <li><a href="#how-it-works">How it works</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li class="nav-cta"><a class="btn btn-primary btn-sm" href="#contact" style="color:#fff">Book a Consultation</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero" id="home" aria-labelledby="hero-title">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow"><svg width="14" height="14" aria-hidden="true"><use href="#i-spark"/></svg> AI social media automation</span>
+      <h1 id="hero-title">Your Social Media Strategy. <span class="accent">Planned, Created and Organised with AI.</span></h1>
+      <p class="hero-lead">SocialFlow AI helps businesses simplify content planning, generate platform-specific content, manage approvals and monitor marketing performance through intelligent automation.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="#how-it-works">See How It Works
+          <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a class="btn btn-ghost" href="#contact">Book a Consultation</a>
+      </div>
+      <ul class="hero-meta">
+        <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> You approve every post</li>
+        <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Instagram, Facebook, LinkedIn, TikTok &amp; X</li>
+        <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Transparent pricing in KES</li>
+      </ul>
+    </div>
+
+    <div class="hero-visual" aria-label="Interactive preview of the SocialFlow AI dashboard">
+      <div class="float float-2" aria-hidden="true"><span class="dot" style="background:var(--purple-600)"><svg width="14" height="14"><use href="#i-spark"/></svg></span> 7 captions drafted</div>
+      <div class="mock" id="hero-mock">
+        <div class="mock-bar"><i></i><i></i><i></i><b>SocialFlow AI · Interactive preview</b></div>
+        <div class="mock-body">
+          <div class="mock-side" role="tablist" aria-label="Dashboard views" aria-orientation="vertical">
+            <button class="side-btn" role="tab" id="hb-cal" aria-selected="true" aria-controls="hv-cal" aria-label="Calendar view" title="Calendar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></button>
+            <button class="side-btn" role="tab" id="hb-appr" aria-selected="false" aria-controls="hv-appr" aria-label="Approvals view" title="Approvals" tabindex="-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9"/></svg></button>
+            <button class="side-btn" role="tab" id="hb-stats" aria-selected="false" aria-controls="hv-stats" aria-label="Reports view" title="Reports" tabindex="-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></button>
+          </div>
+          <div class="mock-main">
+            <div role="tabpanel" id="hv-cal" aria-labelledby="hb-cal">
+              <div class="mock-head"><strong>This week · Sample brand</strong><span class="pill">12 posts planned</span></div>
+              <div class="week">
+                <div class="day"><small>Mon</small><button type="button" class="chip c-ig" data-p="Instagram" data-s="Approved" data-t="Photo">Menu spotlight</button><button type="button" class="chip c-fb" data-p="Facebook" data-s="In review" data-t="Graphic">Weekly offer</button></div>
+                <div class="day"><small>Tue</small><button type="button" class="chip c-in" data-p="LinkedIn" data-s="Draft" data-t="Text post">Team story</button></div>
+                <div class="day"><small>Wed</small><button type="button" class="chip c-tt" data-p="TikTok" data-s="Approved" data-t="Video">Behind the kitchen</button><button type="button" class="chip c-ig" data-p="Instagram" data-s="Approved" data-t="Reel">Reel</button></div>
+                <div class="day"><small>Thu</small><button type="button" class="chip c-fb" data-p="Facebook" data-s="Draft" data-t="Carousel">Customer FAQ</button></div>
+                <div class="day"><small>Fri</small><button type="button" class="chip c-ig" data-p="Instagram" data-s="In review" data-t="Carousel">Weekend promo</button><button type="button" class="chip c-x" data-p="X" data-s="Draft" data-t="Text post">Update</button></div>
+                <div class="day"><small>Sat</small><button type="button" class="chip c-tt" data-p="TikTok" data-s="Draft" data-t="Video">Live event</button></div>
+                <div class="day"><small>Sun</small><button type="button" class="chip c-p" data-p="All platforms" data-s="Draft" data-t="Story">Recap</button></div>
+              </div>
+              <p class="hv-info" aria-live="polite">Tap any post to preview it.</p>
+              <div class="mock-row">
+                <div class="mini"><h5>Approvals <span style="font-weight:500;color:var(--muted)">(tap to change)</span></h5>
+                  <div class="line"><span>Menu spotlight</span><button type="button" class="pill ok" data-cycle="approved">Approved</button></div>
+                  <div class="line"><span>Weekly offer</span><button type="button" class="pill warn" data-cycle="review">Review</button></div>
+                  <div class="line"><span>Team story</span><button type="button" class="pill" data-cycle="draft">Draft</button></div>
+                </div>
+                <div class="mini"><h5>Engagement trend (sample data)</h5>
+                  <svg viewBox="0 0 200 60" width="100%" height="60" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="gA" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#8B5CF6" stop-opacity=".35"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></linearGradient></defs><path d="M0 48 L25 42 L50 44 L75 34 L100 36 L125 26 L150 28 L175 18 L200 20 L200 60 L0 60Z" fill="url(#gA)"/><path d="M0 48 L25 42 L50 44 L75 34 L100 36 L125 26 L150 28 L175 18 L200 20" fill="none" stroke="#6D28D9" stroke-width="2.5"/></svg>
+                </div>
+              </div>
+            </div>
+            <div role="tabpanel" id="hv-appr" aria-labelledby="hb-appr" hidden data-appr>
+              <div class="mock-head"><strong>Approval queue</strong><span class="pill warn"><span data-count="waiting">3</span>&nbsp;waiting</span></div>
+              <div class="appr"><div><b>Weekly offer: 2-for-1 Tuesdays</b><small>Facebook · Graphic</small></div><div class="appr-actions"><span class="pill warn">In review</span><button type="button" class="icon-btn ok" data-act="approve" aria-label="Approve Weekly offer">✓</button><button type="button" class="icon-btn warn" data-act="changes" aria-label="Request changes to Weekly offer">✎</button></div></div>
+              <div class="appr"><div><b>Team story: meet our chef</b><small>LinkedIn · Text post</small></div><div class="appr-actions"><span class="pill warn">In review</span><button type="button" class="icon-btn ok" data-act="approve" aria-label="Approve Team story">✓</button><button type="button" class="icon-btn warn" data-act="changes" aria-label="Request changes to Team story">✎</button></div></div>
+              <div class="appr"><div><b>Weekend promo carousel</b><small>Instagram · Carousel</small></div><div class="appr-actions"><span class="pill warn">In review</span><button type="button" class="icon-btn ok" data-act="approve" aria-label="Approve Weekend promo">✓</button><button type="button" class="icon-btn warn" data-act="changes" aria-label="Request changes to Weekend promo">✎</button></div></div>
+              <div class="appr"><div><b>Menu spotlight</b><small>Instagram · Photo</small></div><div class="appr-actions"><span class="pill ok">Approved</span><button type="button" class="icon-btn ok" data-act="approve" aria-label="Approve Menu spotlight">✓</button><button type="button" class="icon-btn warn" data-act="changes" aria-label="Request changes to Menu spotlight">✎</button></div></div>
+              <p class="hv-info"><span data-count="approved">1</span> approved · tap ✓ or ✎ to try it</p>
+            </div>
+            <div role="tabpanel" id="hv-stats" aria-labelledby="hb-stats" hidden>
+              <div class="mock-head"><strong>Performance · sample data</strong>
+                <div class="mini-btns" role="group" aria-label="Date range" style="margin:0"><button type="button" class="mini-btn" data-range="7" aria-pressed="true">7 days</button><button type="button" class="mini-btn" data-range="30" aria-pressed="false">30 days</button></div></div>
+              <div class="kpis">
+                <div class="kpi"><small>Posts published</small><b data-k="posts">12</b></div>
+                <div class="kpi"><small>Avg. engagement</small><b data-k="eng">3.4%</b></div>
+                <div class="kpi"><small>Link clicks</small><b data-k="clicks">58</b></div>
+              </div>
+              <svg class="spark" viewBox="0 0 200 70" width="100%" height="96" preserveAspectRatio="none" aria-hidden="true"><path data-k="area" d="M0 56 L33 46 L66 50 L100 34 L133 38 L166 24 L200 20 L200 70 L0 70Z" fill="url(#gA)"/><path data-k="line" d="M0 56 L33 46 L66 50 L100 34 L133 38 L166 24 L200 20" fill="none" stroke="#6D28D9" stroke-width="2.5"/></svg>
+              <p class="hv-info">Illustrative numbers only, not client results.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="float float-1" aria-hidden="true"><span class="dot" style="background:var(--ok)"><svg width="14" height="14"><use href="#i-check"/></svg></span> Post approved by client</div>
+    </div>
+  </div>
+</section>
+
+<!-- BENEFITS -->
+<section aria-labelledby="benefits-title">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Why SocialFlow AI</span>
+      <h2 id="benefits-title">Spend less time juggling content and more time running your business</h2>
+      <p>One organised workflow replaces scattered notes, last-minute captions and endless approval threads.</p>
+    </div>
+    <div class="grid g-4">
+      <article class="card benefit">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+        <h3>Less time on planning</h3>
+        <p>Turn your business goals into a ready-to-review monthly plan instead of starting from a blank page every week.</p>
+      </article>
+      <article class="card benefit">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 19h16M4 15l4-4 4 3 8-8"/></svg></div>
+        <h3>Consistent brand voice</h3>
+        <p>Your tone, offers and audience are saved in a brand profile, so every caption sounds like your business.</p>
+      </article>
+      <article class="card benefit">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9"/></svg></div>
+        <h3>Clear approvals</h3>
+        <p>Everyone knows what is drafted, in review or approved. Nothing goes live until the right person says yes.</p>
+      </article>
+      <article class="card benefit">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
+        <h3>Decisions based on data</h3>
+        <p>Simple reports show what your audience responds to, so next month's plan builds on what worked.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCT SCREENSHOTS -->
+<section class="bg-navy" id="product" aria-labelledby="product-title">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Inside the platform</span>
+      <h2 id="product-title">See how your content workspace comes together</h2>
+      <p>From a weekly calendar to approval queues and monthly reports, everything lives in one organised view.</p>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Product previews">
+      <button class="tab" role="tab" id="t-cal" aria-selected="true" aria-controls="p-cal">Content calendar</button>
+      <button class="tab" role="tab" id="t-cap" aria-selected="false" aria-controls="p-cap" tabindex="-1">Caption studio</button>
+      <button class="tab" role="tab" id="t-app" aria-selected="false" aria-controls="p-app" tabindex="-1">Approvals</button>
+      <button class="tab" role="tab" id="t-rep" aria-selected="false" aria-controls="p-rep" tabindex="-1">Reports</button>
+    </div>
+
+    <div class="panel" role="tabpanel" id="p-cal" aria-labelledby="t-cal" tabindex="0">
+      <div class="showcase">
+        <div class="mock">
+          <div class="mock-bar"><i></i><i></i><i></i><b>Calendar · November</b></div>
+          <div class="mock-main">
+            <div class="mock-head"><strong>Week 3 · School sample</strong><span class="pill">Tap a post</span></div>
+            <div class="mini-btns" role="group" aria-label="Filter by platform" data-filter>
+              <button type="button" class="mini-btn" data-f="all" aria-pressed="true">All</button>
+              <button type="button" class="mini-btn" data-f="Instagram" aria-pressed="false">Instagram</button>
+              <button type="button" class="mini-btn" data-f="Facebook" aria-pressed="false">Facebook</button>
+              <button type="button" class="mini-btn" data-f="LinkedIn" aria-pressed="false">LinkedIn</button>
+              <button type="button" class="mini-btn" data-f="TikTok" aria-pressed="false">TikTok</button>
+            </div>
+            <div class="week">
+              <div class="day"><small>Mon</small><button type="button" class="chip c-fb" data-p="Facebook" data-s="Approved" data-t="Graphic · Parent updates">Term dates</button><button type="button" class="chip c-ig" data-p="Instagram" data-s="Approved" data-t="Photo · Learning highlights">Class moment</button></div>
+              <div class="day"><small>Tue</small><button type="button" class="chip c-in" data-p="LinkedIn" data-s="In review" data-t="Text post · Our team">Teacher feature</button></div>
+              <div class="day"><small>Wed</small><button type="button" class="chip c-ig" data-p="Instagram" data-s="Draft" data-t="Reel · Learning highlights">STEM club</button></div>
+              <div class="day"><small>Thu</small><button type="button" class="chip c-fb" data-p="Facebook" data-s="Draft" data-t="Carousel · Parent updates">Parent tip</button><button type="button" class="chip c-tt" data-p="TikTok" data-s="In review" data-t="Video · Events">Sports day</button></div>
+              <div class="day"><small>Fri</small><button type="button" class="chip c-ig" data-p="Instagram" data-s="In review" data-t="Carousel · Admissions">Admissions</button></div>
+              <div class="day"><small>Sat</small><button type="button" class="chip c-fb" data-p="Facebook" data-s="Draft" data-t="Photo · Events">Event recap</button></div>
+              <div class="day"><small>Sun</small><button type="button" class="chip c-ig" data-p="Instagram" data-s="Draft" data-t="Story · Parent updates">Week ahead</button></div>
+            </div>
+            <p class="hv-info" aria-live="polite">Tap any post to see its format, pillar and status.</p>
+          </div>
+        </div>
+        <div class="copy">
+          <h3>A calendar built from your strategy</h3>
+          <p>Posts are grouped by content pillar and platform, so you can spot gaps and balance promotion with value.</p>
+          <ul>
+            <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Filter by platform in one tap</li>
+            <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Colour-coded by platform</li>
+            <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Linked to captions, briefs and status</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" id="p-cap" aria-labelledby="t-cap" tabindex="0" hidden>
+      <div class="showcase">
+        <div class="mock">
+          <div class="mock-bar"><i></i><i></i><i></i><b>Caption studio</b></div>
+          <div class="mock-main">
+            <div class="mock-head"><strong>Idea: New lunch menu</strong><span class="pill" id="cs-count">0 characters</span></div>
+            <div class="mini-btns" role="group" aria-label="Platform" id="cs-plat">
+              <button type="button" class="mini-btn" data-v="instagram" aria-pressed="true">Instagram</button>
+              <button type="button" class="mini-btn" data-v="facebook" aria-pressed="false">Facebook</button>
+              <button type="button" class="mini-btn" data-v="linkedin" aria-pressed="false">LinkedIn</button>
+              <button type="button" class="mini-btn" data-v="x" aria-pressed="false">X</button>
+              <button type="button" class="mini-btn" data-v="tiktok" aria-pressed="false">TikTok</button>
+            </div>
+            <div class="mini-btns" role="group" aria-label="Tone" id="cs-tone">
+              <button type="button" class="mini-btn" data-v="friendly" aria-pressed="true">Friendly</button>
+              <button type="button" class="mini-btn" data-v="professional" aria-pressed="false">Professional</button>
+              <button type="button" class="mini-btn" data-v="playful" aria-pressed="false">Playful</button>
+            </div>
+            <div class="caption-box" id="cs-out" aria-live="polite" style="min-height:120px;font-size:12.5px"></div>
+          </div>
+        </div>
+        <div class="copy">
+          <h3>One idea, written for every platform</h3>
+          <p>Switch platform and tone to see how the same idea is rewritten for each audience instead of copy-pasting one caption everywhere.</p>
+          <ul>
+            <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Uses your saved brand voice</li>
+            <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Hashtag and call-to-action suggestions</li>
+            <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> English or Kiswahili drafts, always human-reviewed</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" id="p-app" aria-labelledby="t-app" tabindex="0" hidden>
+      <div class="showcase">
+        <div class="mock" data-appr>
+          <div class="mock-bar"><i></i><i></i><i></i><b>Approval queue</b></div>
+          <div class="mock-main">
+            <div class="mock-head"><strong>Waiting on you: <span data-count="waiting">3</span></strong><span class="pill ok"><span data-count="approved">1</span>&nbsp;approved</span></div>
+            <div class="appr"><div><b>Open house: 3-bedroom, Kilimani</b><small>Instagram · Facebook</small></div><div class="appr-actions"><span class="pill ok">Approved</span><button type="button" class="icon-btn ok" data-act="approve" aria-label="Approve Open house post">✓ Approve</button><button type="button" class="icon-btn warn" data-act="changes" aria-label="Request changes to Open house post">✎ Changes</button></div></div>
+            <div class="appr"><div><b>Buyer tip: costs to budget for</b><small>LinkedIn</small></div><div class="appr-actions"><span class="pill warn">In review</span><button type="button" class="icon-btn ok" data-act="approve" aria-label="Approve Buyer tip post">✓ Approve</button><button type="button" class="icon-btn warn" data-act="changes" aria-label="Request changes to Buyer tip post">✎ Changes</button></div></div>
+            <div class="appr"><div><b>Neighbourhood guide: Westlands</b><small>TikTok</small></div><div class="appr-actions"><span class="pill warn">In review</span><button type="button" class="icon-btn ok" data-act="approve" aria-label="Approve Neighbourhood guide post">✓ Approve</button><button type="button" class="icon-btn warn" data-act="changes" aria-label="Request changes to Neighbourhood guide post">✎ Changes</button></div></div>
+            <div class="appr"><div><b>Meet the agent</b><small>Instagram</small></div><div class="appr-actions"><span class="pill warn">In review</span><button type="button" class="icon-btn ok" data-act="approve" aria-label="Approve Meet the agent post">✓ Approve</button><button type="button" class="icon-btn warn" data-act="changes" aria-label="Request changes to Meet the agent post">✎ Changes</button></div></div>
+          </div>
+        </div>
+        <div class="copy">
+          <h3>Approvals without the back-and-forth</h3>
+          <p>Try it: approve posts or request changes. Every decision is tracked, so nothing gets lost in chats.</p>
+          <ul>
+            <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Client or manager sign-off</li>
+            <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Email or WhatsApp notifications</li>
+            <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Clear status for every post</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" id="p-rep" aria-labelledby="t-rep" tabindex="0" hidden>
+      <div class="showcase">
+        <div class="mock" id="rep-mock">
+          <div class="mock-bar"><i></i><i></i><i></i><b>Monthly report · sample data</b></div>
+          <div class="mock-main">
+            <div class="mini-btns" role="group" aria-label="Metric">
+              <button type="button" class="mini-btn" data-metric="reach" aria-pressed="true">Reach</button>
+              <button type="button" class="mini-btn" data-metric="eng" aria-pressed="false">Engagement</button>
+              <button type="button" class="mini-btn" data-metric="clicks" aria-pressed="false">Link clicks</button>
+            </div>
+            <div class="kpis">
+              <div class="kpi"><small>Posts published</small><b>24</b></div>
+              <div class="kpi"><small data-kpi="label">Total reach</small><b data-kpi="val">12,480</b></div>
+              <div class="kpi"><small>Top pillar</small><b data-kpi="top">Stories</b></div>
+            </div>
+            <div class="bar-chart" aria-hidden="true"><span style="height:62%"></span><span style="height:80%"></span><span style="height:45%"></span><span style="height:100%"></span><span style="height:70%"></span><span style="height:88%"></span></div>
+            <div class="bar-labels" aria-hidden="true"><small>Tips</small><small>Offers</small><small>News</small><small>Stories</small><small>FAQs</small><small>Events</small></div>
+          </div>
+        </div>
+        <div class="copy">
+          <h3>Reports you can actually read</h3>
+          <p>Switch metrics to see which content pillars performed best, with plain-language notes on what to try next month.</p>
+          <ul>
+            <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Performance by pillar and platform</li>
+            <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Monthly summary in Google Sheets or PDF</li>
+            <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Recommendations for next month's plan</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p class="note">Previews are illustrations using sample data, not real client results.</p>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features" aria-labelledby="features-title">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Features</span>
+      <h2 id="features-title">Everything your social media workflow needs</h2>
+      <p>Eight connected building blocks, set up around how your business actually works.</p>
+    </div>
+    <div class="grid g-4">
+      <article class="card feature">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/></svg></div>
+        <h3>AI content generation</h3>
+        <p>Generate post ideas, hooks, scripts and captions from your brand profile and monthly goals.</p>
+        <details class="ex"><summary>See an example</summary><p>Input: “Back-to-school uniform sale, 15% off this week.” Output: five post ideas, three hooks and a short video script, ready for your review.</p></details>
+      </article>
+      <article class="card feature">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M7 9h10M7 13h6"/></svg></div>
+        <h3>Platform-specific captions</h3>
+        <p>Short and punchy for X, professional for LinkedIn, visual-first for Instagram, hook-led for TikTok.</p>
+        <details class="ex"><summary>See an example</summary><p>One announcement becomes a short X post, a professional LinkedIn update and an Instagram caption with hashtags.</p></details>
+      </article>
+      <article class="card feature">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></div>
+        <h3>Content strategy development</h3>
+        <p>Content pillars, audience notes and a posting rhythm matched to your goals and capacity.</p>
+        <details class="ex"><summary>See an example</summary><p>A restaurant might get pillars like Menu spotlights, Behind the kitchen and Offers &amp; events, plus a four-posts-a-week rhythm.</p></details>
+      </article>
+      <article class="card feature">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div>
+        <h3>Content calendar</h3>
+        <p>A shared calendar showing what goes out, where and when, linked to every draft and asset.</p>
+        <details class="ex"><summary>See an example</summary><p>A shared Google Sheet or dashboard where each row is a post: date, platform, pillar, caption, asset link and status.</p></details>
+      </article>
+      <article class="card feature">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></svg></div>
+        <h3>Creative briefs</h3>
+        <p>Clear briefs for designers, photographers or your team: format, visuals, text on image and size.</p>
+        <details class="ex"><summary>See an example</summary><p>“Carousel, 5 slides, warm colours, show the 3 new bowls. Text: New lunch menu from 12pm. Size 1080×1350.”</p></details>
+      </article>
+      <article class="card feature">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M9 11l3 3 8-8"/><path d="M20 12v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9"/></svg></div>
+        <h3>Approval workflows</h3>
+        <p>Draft, review, approve or request changes, with notifications and a record of every decision.</p>
+        <details class="ex"><summary>See an example</summary><p>Your manager gets a WhatsApp or email notification, taps Approve or adds a comment, and the status updates automatically.</p></details>
+      </article>
+      <article class="card feature">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4z"/></svg></div>
+        <h3>Publishing assistance</h3>
+        <p>Approved posts are queued in tools like Meta Business Suite or Buffer, or sent to you ready to post.</p>
+        <details class="ex"><summary>See an example</summary><p>Approved posts are queued in Meta Business Suite or Buffer at the agreed times, or sent to you as a ready-to-post pack.</p></details>
+      </article>
+      <article class="card feature">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
+        <h3>Performance reporting</h3>
+        <p>Monthly summaries of reach, engagement and clicks, with practical notes for the next cycle.</p>
+        <details class="ex"><summary>See an example</summary><p>At month end: a one-page summary of posts published, reach, engagement and clicks, with three suggestions for next month.</p></details>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- INDUSTRIES -->
+<section class="bg-soft" id="industries" aria-labelledby="industries-title">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Industry solutions</span>
+      <h2 id="industries-title">Set up for the way your industry markets</h2>
+      <p>Each setup starts with content pillars and approval flows that fit your sector.</p>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Industries" style="justify-content:center">
+      <button class="tab" role="tab" id="ti-school" aria-selected="true" aria-controls="pi-school">Schools</button>
+      <button class="tab" role="tab" id="ti-rest" aria-selected="false" aria-controls="pi-rest" tabindex="-1">Restaurants</button>
+      <button class="tab" role="tab" id="ti-re" aria-selected="false" aria-controls="pi-re" tabindex="-1">Real estate</button>
+      <button class="tab" role="tab" id="ti-retail" aria-selected="false" aria-controls="pi-retail" tabindex="-1">Retail businesses</button>
+      <button class="tab" role="tab" id="ti-agency" aria-selected="false" aria-controls="pi-agency" tabindex="-1">Marketing agencies</button>
+      <button class="tab" role="tab" id="ti-personal" aria-selected="false" aria-controls="pi-personal" tabindex="-1">Personal brands</button>
+    </div>
+
+    <div class="panel" role="tabpanel" id="pi-school" aria-labelledby="ti-school" tabindex="0">
+      <div class="ind-panel">
+        <div>
+          <h3>Schools</h3>
+          <p>Keep parents informed and showcase school life consistently, without overloading teachers or the admin office.</p>
+          <h4>How SocialFlow AI helps</h4>
+          <ul>
+            <li>Term calendar of events, reminders and admissions campaigns</li>
+            <li>Parent-friendly updates drafted from short notes by staff</li>
+            <li>Approval by the head teacher or communications lead before posting</li>
+            <li>Consent checklist reminder for any post featuring learners</li>
+          </ul>
+        </div>
+        <div class="ideas"><h4 style="margin-top:0">Example content</h4><ul>
+          <li>Admissions open: what makes our classrooms different</li>
+          <li>This week's learning highlight from Grade 4</li>
+          <li>Parent tip: helping children with reading at home</li>
+          <li>Sports day recap and thank-you to families</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" id="pi-rest" aria-labelledby="ti-rest" tabindex="0" hidden>
+      <div class="ind-panel">
+        <div>
+          <h3>Restaurants &amp; cafés</h3>
+          <p>Fill quieter days and promote your menu with a steady flow of mouth-watering, timely posts.</p>
+          <h4>How SocialFlow AI helps</h4>
+          <ul>
+            <li>Menu spotlights, daily specials and weekend promotions planned ahead</li>
+            <li>Creative briefs for food photos and short videos</li>
+            <li>Captions with clear ordering, delivery and booking calls to action</li>
+            <li>Reports showing which dishes and offers get the most interest</li>
+          </ul>
+        </div>
+        <div class="ideas"><h4 style="margin-top:0">Example content</h4><ul>
+          <li>Meet our new lunch bowl, available from 12pm</li>
+          <li>Behind the kitchen: how we make our chapati fresh daily</li>
+          <li>Friday live music night: reserve your table</li>
+          <li>How to order on delivery apps in three taps</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" id="pi-re" aria-labelledby="ti-re" tabindex="0" hidden>
+      <div class="ind-panel">
+        <div>
+          <h3>Real estate agencies</h3>
+          <p>Market listings faster and build trust with buyers and renters through helpful, local content.</p>
+          <h4>How SocialFlow AI helps</h4>
+          <ul>
+            <li>Listing posts generated from property details in a form or sheet</li>
+            <li>Neighbourhood guides and buyer or renter education series</li>
+            <li>Agent and manager approval before listings go live</li>
+            <li>Enquiry-focused calls to action that route to WhatsApp</li>
+          </ul>
+        </div>
+        <div class="ideas"><h4 style="margin-top:0">Example content</h4><ul>
+          <li>Just listed: 2-bedroom apartment with backup water</li>
+          <li>Renting for the first time? 5 questions to ask</li>
+          <li>Neighbourhood guide: schools, shops and transport</li>
+          <li>Open house this Saturday: book a viewing slot</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" id="pi-retail" aria-labelledby="ti-retail" tabindex="0" hidden>
+      <div class="ind-panel">
+        <div>
+          <h3>Retail &amp; online shops</h3>
+          <p>Showcase products, announce new arrivals and run promotions without scrambling for captions.</p>
+          <h4>How SocialFlow AI helps</h4>
+          <ul>
+            <li>Product spotlights generated from your catalogue or price list</li>
+            <li>Campaign planning for holidays, back-to-school and sales seasons</li>
+            <li>Platform-ready captions with prices, delivery info and order links</li>
+            <li>Reports on which products and offers get clicks and enquiries</li>
+          </ul>
+        </div>
+        <div class="ideas"><h4 style="margin-top:0">Example content</h4><ul>
+          <li>New arrivals: this week's top picks</li>
+          <li>How to style one outfit three ways</li>
+          <li>Delivery FAQ: areas, timelines and payment</li>
+          <li>Weekend offer: bundle and save</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" id="pi-agency" aria-labelledby="ti-agency" tabindex="0" hidden>
+      <div class="ind-panel">
+        <div>
+          <h3>Digital marketing agencies</h3>
+          <p>Manage several client accounts with repeatable workflows and clean client sign-off.</p>
+          <h4>How SocialFlow AI helps</h4>
+          <ul>
+            <li>A separate brand profile and calendar for each client</li>
+            <li>Faster first drafts so your team focuses on strategy and creative</li>
+            <li>Client-facing approval links and change requests in one place</li>
+            <li>Monthly client reports from a consistent template</li>
+          </ul>
+        </div>
+        <div class="ideas"><h4 style="margin-top:0">Example workflow</h4><ul>
+          <li>Client brief → monthly plan drafted in hours, not days</li>
+          <li>Account manager review → client approval link</li>
+          <li>Approved posts queued in the client's scheduler</li>
+          <li>Month-end report sent with next month's plan</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" id="pi-personal" aria-labelledby="ti-personal" tabindex="0" hidden>
+      <div class="ind-panel">
+        <div>
+          <h3>Personal brands &amp; consultants</h3>
+          <p>Show up consistently with your expertise, even when client work fills your week.</p>
+          <h4>How SocialFlow AI helps</h4>
+          <ul>
+            <li>Content pillars built around your expertise and offers</li>
+            <li>Long-form LinkedIn posts and short-form video scripts from voice notes or bullet points</li>
+            <li>Your personal voice captured and kept consistent</li>
+            <li>Simple monthly view of what sparked conversations and enquiries</li>
+          </ul>
+        </div>
+        <div class="ideas"><h4 style="margin-top:0">Example content</h4><ul>
+          <li>3 lessons from a recent project</li>
+          <li>A common mistake I see clients make, and the fix</li>
+          <li>Behind the scenes of my work week</li>
+          <li>How my discovery call works</li>
+        </ul></div>
+      </div>
+    </div>
+
+    <p class="also">Also set up for <strong>SMEs</strong>, <strong>consultants</strong> and <strong>online retailers</strong>. Not sure where you fit? <a href="#contact">Tell us about your business</a>.</p>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="bg-navy" id="how-it-works" aria-labelledby="how-title">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">How it works</span>
+      <h2 id="how-title">From business profile to performance report</h2>
+      <p>Six stages, with you in control at the approval step.</p>
+    </div>
+    <ol class="steps" id="steps">
+      <li class="step"><button type="button" class="step-btn" data-step="0" aria-pressed="true" aria-controls="step-detail"><h3>Business profile</h3><p>We capture your goals, audience, offers, brand voice and the platforms you use.</p></button></li>
+      <li class="step"><button type="button" class="step-btn" data-step="1" aria-pressed="false" aria-controls="step-detail"><h3>AI content strategy</h3><p>AI drafts content pillars, themes and a posting rhythm, which we refine together.</p></button></li>
+      <li class="step"><button type="button" class="step-btn" data-step="2" aria-pressed="false" aria-controls="step-detail"><h3>Content generation</h3><p>Ideas, captions, scripts and creative briefs are generated for each platform.</p></button></li>
+      <li class="step"><button type="button" class="step-btn" data-step="3" aria-pressed="false" aria-controls="step-detail"><h3>Approval</h3><p>You review, edit, approve or request changes. Nothing moves forward without a yes.</p></button></li>
+      <li class="step"><button type="button" class="step-btn" data-step="4" aria-pressed="false" aria-controls="step-detail"><h3>Scheduling</h3><p>Approved posts are queued in your scheduling tool or sent to you ready to publish.</p></button></li>
+      <li class="step"><button type="button" class="step-btn" data-step="5" aria-pressed="false" aria-controls="step-detail"><h3>Performance reporting</h3><p>A monthly report shows what worked and feeds into next month's strategy.</p></button></li>
+    </ol>
+    <div class="step-detail" id="step-detail" aria-live="polite"></div>
+    <div class="step-controls">
+      <button type="button" class="btn btn-ghost btn-sm" id="step-prev">← Previous</button>
+      <button type="button" class="btn btn-primary btn-sm" id="step-play" aria-pressed="false">▶ Play walkthrough</button>
+      <button type="button" class="btn btn-ghost btn-sm" id="step-next">Next →</button>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="bg-soft" id="pricing" aria-labelledby="pricing-title">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Pricing</span>
+      <h2 id="pricing-title">Introductory packages</h2>
+      <p>One-off implementation fees in Kenyan shillings. Monthly support and third-party tools are listed separately, so you always know what you're paying for.</p>
+    </div>
+
+    <div class="reco" id="reco">
+      <div>
+        <h3>Not sure which package fits? Answer three quick questions.</h3>
+        <p>The recommendation updates as you go.</p>
+        <div class="field">
+          <label for="r-plat">How many social media platforms do you post on?</label>
+          <div class="range-row"><input type="range" id="r-plat" min="1" max="5" value="2" aria-describedby="r-plat-val"><output class="range-val" id="r-plat-val" for="r-plat">2</output></div>
+        </div>
+        <div class="field">
+          <fieldset><legend>How many brands or client accounts?</legend>
+            <div class="checks">
+              <label class="check"><input type="radio" name="r-brands" value="1" checked><span>Just one</span></label>
+              <label class="check"><input type="radio" name="r-brands" value="2-3"><span>2–3</span></label>
+              <label class="check"><input type="radio" name="r-brands" value="4+"><span>4 or more</span></label>
+            </div>
+          </fieldset>
+        </div>
+        <div class="field" style="margin-bottom:0">
+          <fieldset><legend>What else do you need?</legend>
+            <div class="checks" id="r-needs">
+              <label class="check"><input type="checkbox" value="multi-approval"><span>More than one approver</span></label>
+              <label class="check"><input type="checkbox" value="scheduling"><span>Scheduling setup</span></label>
+              <label class="check"><input type="checkbox" value="integrations"><span>Custom integrations (CRM, forms)</span></label>
+              <label class="check"><input type="checkbox" value="auto-reports"><span>Automated reports</span></label>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+      <div class="reco-result" aria-live="polite">
+        <small>Recommended for you</small>
+        <p class="rname" id="r-name">Starter</p>
+        <p class="rprice" id="r-price">KES 10,000 one-off implementation</p>
+        <ul id="r-why"></ul>
+        <a class="btn btn-light btn-block" href="#contact" id="r-choose" data-package="Starter">Choose Starter</a>
+      </div>
+    </div>
+
+    <div class="price-grid">
+      <article class="price" data-pkg="Starter">
+        <span class="rec-flag">RECOMMENDED</span>
+        <h3>Starter</h3>
+        <p class="for">For small businesses and personal brands getting organised.</p>
+        <p class="amount">KES 10,000</p>
+        <p class="once">One-off implementation</p>
+        <ul>
+          <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Up to 2 social media platforms</li>
+          <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Brand profile and 3 content pillars</li>
+          <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> AI caption workflow for monthly content</li>
+          <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Content calendar in Google Sheets</li>
+          <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Simple one-step approval</li>
+          <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Monthly report template</li>
+        </ul>
+        <a class="btn btn-outline btn-block" href="#contact" data-package="Starter">Choose Starter</a>
+      </article>
+
+      <article class="price featured" data-pkg="Professional">
+        <span class="badge">MOST POPULAR</span>
+        <span class="rec-flag">RECOMMENDED</span>
+        <h3>Professional</h3>
+        <p class="for">For growing businesses posting regularly on several platforms.</p>
+        <p class="amount">KES 25,000</p>
+        <p class="once">One-off implementation</p>
+        <ul>
+          <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Up to 4 social media platforms</li>
+          <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Custom content strategy and pillars</li>
+          <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Platform-specific captions and creative briefs</li>
+          <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Multi-step approval with notifications</li>
+          <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Scheduling setup in your chosen tool</li>
+          <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Monthly performance report with insights</li>
+          <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Team training session</li>
+        </ul>
+        <a class="btn btn-primary btn-block" href="#contact" data-package="Professional">Choose Professional</a>
+      </article>
+
+      <article class="price" data-pkg="Business">
+        <span class="rec-flag">RECOMMENDED</span>
+        <h3>Business</h3>
+        <p class="for">For agencies, multi-brand teams and custom automation needs.</p>
+        <p class="amount">KES 45,000<small>+</small></p>
+        <p class="once">One-off implementation, quoted to scope</p>
+        <ul>
+          <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> All major platforms</li>
+          <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Multiple brands or client accounts</li>
+          <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Custom workflows and integrations (Make.com, CRM, forms)</li>
+          <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Role-based approvals for teams and clients</li>
+          <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Automated weekly and monthly reporting</li>
+          <li><svg width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg> Team training and documentation</li>
+        </ul>
+        <a class="btn btn-outline btn-block" href="#contact" data-package="Business">Request a quote</a>
+      </article>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <caption>What's different between packages</caption>
+        <thead><tr><th scope="col">Area</th><th scope="col">Starter</th><th scope="col">Professional</th><th scope="col">Business</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Workflows</th><td>Planning, caption generation and a simple approval step</td><td>Full flow: strategy, captions, creative briefs, multi-step approval and scheduling</td><td>Full flow plus custom automations, integrations and multi-account management</td></tr>
+          <tr><th scope="row">Platforms</th><td>Up to 2</td><td>Up to 4</td><td>All major platforms, multiple brands</td></tr>
+          <tr><th scope="row">Customisation</th><td>Standard templates adapted to your brand</td><td>Custom strategy, brand voice guide and approval roles</td><td>Built around your team, clients and existing tools</td></tr>
+          <tr><th scope="row">Reporting</th><td>Monthly report template you fill in</td><td>Monthly report with insights and recommendations</td><td>Automated weekly and monthly reports, per brand or client</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="costs">
+      <div class="cost">
+        <h3><span class="num">1</span> Implementation fee</h3>
+        <p>The one-off package price above. Covers discovery, setup of your workflows, templates, testing and handover.</p>
+      </div>
+      <div class="cost">
+        <h3><span class="num">2</span> Monthly support (optional)</h3>
+        <p>Ongoing updates, fixes, workflow adjustments and help, billed monthly. Quoted at your consultation based on your package and needs.</p>
+      </div>
+      <div class="cost">
+        <h3><span class="num">3</span> Third-party subscriptions</h3>
+        <p>AI tools, Make.com, scheduling apps or design tools are paid directly to those providers. Many have free tiers; we'll recommend what fits your budget.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" aria-labelledby="about-title">
+  <div class="container about">
+    <div class="about-card">
+      <div class="avatar" aria-hidden="true">NM</div>
+      <h3>Naomi Mwangi</h3>
+      <p>AI Automation Specialist · Nairobi, Kenya</p>
+      <ul>
+        <li>Diploma in Information Communication Technology</li>
+        <li>Works remotely with teams in Kenya and internationally</li>
+        <li>Kiswahili, English and conversational French</li>
+      </ul>
+    </div>
+    <div>
+      <span class="eyebrow">About</span>
+      <h2 id="about-title">Built by someone who has done the work by hand</h2>
+      <p>SocialFlow AI is delivered by Naomi Mwangi, an AI Automation Specialist who combines hands-on experience in digital marketing and social media management with web development and virtual assistance.</p>
+      <p>That mix means your setup is designed around real day-to-day content work: how posts actually get planned, written, approved and published, and where time is lost along the way. The goal is a system your team can understand, use and maintain.</p>
+      <div class="skills" aria-label="Areas of experience">
+        <span>Digital marketing</span><span>Social media management</span><span>AI automation</span><span>Web development</span><span>Virtual assistance</span><span>AI data annotation</span>
+      </div>
+      <a class="btn btn-primary" href="#contact">Book a Consultation</a>
+      <a class="btn btn-outline" href="https://www.linkedin.com/in/naomi-njeri-m/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="bg-soft" id="faq" aria-labelledby="faq-title">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">FAQ</span>
+      <h2 id="faq-title">Frequently asked questions</h2>
+    </div>
+    <div class="faq-search">
+      <label for="faq-q" class="sr-only">Search questions</label>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input type="text" id="faq-q" placeholder="Search questions, e.g. pricing, approval, Kiswahili" autocomplete="off">
+    </div>
+    <div class="faq">
+      <details><summary>Does SocialFlow AI guarantee more followers or viral posts?</summary><p>No. SocialFlow AI helps you plan, create and organise content consistently and track results. Growth depends on your audience, offer, content quality and consistency, so we don't promise specific follower numbers or viral reach.</p></details>
+      <details><summary>Will anything be posted without my approval?</summary><p>No. Every post goes through an approval step. You or your team approve content before it is scheduled or published.</p></details>
+      <details><summary>Do I need technical skills to use it?</summary><p>No. Most of the workflow runs in tools you may already use, such as Google Sheets, Gmail or WhatsApp, and your setup includes a handover walkthrough.</p></details>
+      <details><summary>Which platforms are supported?</summary><p>Instagram, Facebook, LinkedIn, TikTok and X. The number of platforms included depends on your package.</p></details>
+      <details><summary>Can content be written in Kiswahili?</summary><p>Yes. Drafts can be prepared in English, Kiswahili or a mix, and every draft is reviewed by a person before it goes out.</p></details>
+      <details><summary>What is the difference between the implementation fee and monthly support?</summary><p>The implementation fee is a one-off payment to set up your workflows. Monthly support is optional and covers updates, adjustments and help. Third-party tool subscriptions are paid directly to those providers.</p></details>
+      <details><summary>Who owns my content and accounts?</summary><p>You do. Your social media accounts, content and data stay in your name and your tools. Access you share for setup can be removed at any time.</p></details>
+      <details><summary>How long does setup take?</summary><p>It depends on the package and how many platforms and approvers are involved. You'll get a clear timeline after the consultation, before any work starts.</p></details>
+      <p class="faq-empty" id="faq-empty">No matching questions. <a href="#contact">Ask us directly</a>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<section style="padding:64px 0 0" aria-label="Call to action">
+  <div class="container">
+    <div class="cta-band">
+      <div><h2>Ready to organise your social media?</h2><p>Book a free consultation and get a recommendation for your business.</p></div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <a class="btn btn-light" href="#contact">Book a Consultation</a>
+        <a class="btn btn-ghost" href="#pricing">See pricing</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" aria-labelledby="contact-title">
+  <div class="container">
+    <div class="bg-navy" style="border-radius:26px;padding:clamp(24px,4vw,48px)">
+      <div class="contact">
+        <div class="contact-info">
+          <span class="eyebrow">Contact</span>
+          <h2 id="contact-title">Book a consultation</h2>
+          <p style="color:#A9B4CF">Tell us about your business and what you'd like to automate. You'll get a reply with next steps and a time for a short call.</p>
+          <div class="item">
+            <div class="icon"><svg width="22" height="22" aria-hidden="true"><use href="#i-wa"/></svg></div>
+            <div><b>WhatsApp</b><a href="https://wa.me/254792002230?text=Hi%20Naomi%2C%20I%27d%20like%20to%20book%20a%20SocialFlow%20AI%20consultation." target="_blank" rel="noopener noreferrer" id="wa-book">+254 792 002 230</a><br><small>Fastest way to book a call</small></div>
+          </div>
+          <div class="item">
+            <div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></div>
+            <div><b>Email</b><a href="mailto:mwanginaomi42@gmail.com?subject=SocialFlow%20AI%20consultation">mwanginaomi42@gmail.com</a><br><small>Replies within working hours (EAT)</small></div>
+          </div>
+          <div class="item">
+            <div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+            <div><b>Location</b><span style="color:#DDD6FE;font-weight:600">Nairobi, Kenya</span><br><small>Serving clients in Kenya and remotely worldwide</small></div>
+          </div>
+        </div>
+
+        <div class="form-card">
+          <form id="contact-form" novalidate>
+            <div class="hp" aria-hidden="true"><label for="c-company">Leave this field empty</label><input type="text" id="c-company" name="_gotcha" tabindex="-1" autocomplete="off"></div>
+            <div class="form-row">
+              <div class="field"><label for="c-name">Full name <span class="req" aria-hidden="true">*</span></label><input type="text" id="c-name" name="name" autocomplete="name" maxlength="80" required><p class="error">Please enter your name.</p></div>
+              <div class="field"><label for="c-biz">Business name</label><input type="text" id="c-biz" name="business" autocomplete="organization" maxlength="100"></div>
+            </div>
+            <div class="form-row">
+              <div class="field"><label for="c-email">Email <span class="req" aria-hidden="true">*</span></label><input type="email" id="c-email" name="email" autocomplete="email" maxlength="120" required><p class="error">Please enter a valid email address.</p></div>
+              <div class="field"><label for="c-phone">WhatsApp / phone</label><input type="tel" id="c-phone" name="phone" autocomplete="tel" maxlength="20" placeholder="+254 7XX XXX XXX"><p class="error">Please enter a valid phone number.</p></div>
+            </div>
+            <div class="form-row">
+              <div class="field"><label for="c-type">Business type <span class="req" aria-hidden="true">*</span></label>
+                <select id="c-type" name="business_type" required>
+                  <option value="">Select one</option>
+                  <option>SME</option><option>School</option><option>Restaurant / café</option><option>Real estate agency</option><option>Digital marketing agency</option><option>Personal brand</option><option>Online retailer</option><option>Consultant</option><option>Other</option>
+                </select><p class="error">Please choose your business type.</p></div>
+              <div class="field"><label for="c-pack">Package of interest</label>
+                <select id="c-pack" name="package">
+                  <option value="Not sure yet">Not sure yet</option><option>Starter</option><option>Professional</option><option>Business</option>
+                </select></div>
+            </div>
+            <div class="field">
+              <fieldset><legend>Social media platforms you use</legend>
+                <div class="checks" id="c-platforms">
+                  <label class="check"><input type="checkbox" name="platforms" value="Instagram"><span>Instagram</span></label>
+                  <label class="check"><input type="checkbox" name="platforms" value="Facebook"><span>Facebook</span></label>
+                  <label class="check"><input type="checkbox" name="platforms" value="LinkedIn"><span>LinkedIn</span></label>
+                  <label class="check"><input type="checkbox" name="platforms" value="TikTok"><span>TikTok</span></label>
+                  <label class="check"><input type="checkbox" name="platforms" value="X"><span>X</span></label>
+                  <label class="check"><input type="checkbox" name="platforms" value="YouTube"><span>YouTube</span></label>
+                </div>
+              </fieldset>
+            </div>
+            <div class="field"><label for="c-req">Automation requirements <span class="req" aria-hidden="true">*</span></label><textarea id="c-req" name="requirements" maxlength="1500" required placeholder="What takes up most of your time today? What would you like SocialFlow AI to handle?" aria-describedby="c-req-count"></textarea><p class="char-count" id="c-req-count">0 / 1500</p><p class="error">Please tell us a little about what you need.</p></div>
+            <div class="field"><label for="c-time">Preferred consultation date &amp; time (EAT)</label><input type="datetime-local" id="c-time" name="preferred_time"></div>
+            <label class="consent" for="c-consent"><input type="checkbox" id="c-consent" required><span>I agree to be contacted about my enquiry. My details won't be shared or used for anything else.</span></label>
+            <p class="error" id="consent-error">Please tick the box to agree to be contacted.</p>
+            <button class="btn btn-primary btn-block" type="submit" id="c-submit">Request consultation</button>
+            <p class="form-hint">Fields marked <span class="req">*</span> are required.</p>
+            <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="foot">
+      <div>
+        <a class="brand" href="#home"><svg width="30" height="30" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#6D28D9"/><path d="M16 40c8 0 10-16 18-16s8 8 12 8" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round"/><circle cx="47" cy="21" r="5" fill="#DDD6FE"/></svg><span>SocialFlow <em>AI</em></span></a>
+        <p style="margin-top:14px">AI-powered social media content planning, approvals and reporting for businesses in Kenya and beyond.</p>
+      </div>
+      <div><h4>Product</h4><ul><li><a href="#features">Features</a></li><li><a href="#how-it-works">How it works</a></li><li><a href="#pricing">Pricing</a></li></ul></div>
+      <div><h4>Solutions</h4><ul><li><a href="#industries" data-ind="ti-school">Schools</a></li><li><a href="#industries" data-ind="ti-rest">Restaurants</a></li><li><a href="#industries" data-ind="ti-re">Real estate</a></li><li><a href="#industries" data-ind="ti-agency">Agencies</a></li></ul></div>
+      <div><h4>Contact</h4><ul><li><a href="https://wa.me/254792002230" target="_blank" rel="noopener noreferrer">WhatsApp</a></li><li><a href="mailto:mwanginaomi42@gmail.com">Email</a></li><li><a href="https://www.linkedin.com/in/naomi-njeri-m/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li><li><a href="#faq">FAQ</a></li></ul></div>
+    </div>
+    <div class="foot-bottom"><span>© <span id="year">2026</span> SocialFlow AI · Nairobi, Kenya</span><span>Prices in KES. Third-party tool costs not included.</span></div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/254792002230?text=Hi%20Naomi%2C%20I%27m%20interested%20in%20SocialFlow%20AI." target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp"><svg width="30" height="30" aria-hidden="true"><use href="#i-wa"/></svg></a>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+/* ===== SITE SETTINGS: edit these ===== */
+const CONFIG = {
+  whatsapp: "254792002230",          // international format, no + or spaces
+  email: "mwanginaomi42@gmail.com",
+  formEndpoint: ""                   // e.g. "https://formspree.io/f/xxxxxxx". Leave empty to send enquiries via WhatsApp/email.
+};
+/* ===================================== */
+
+(function(){
+  "use strict";
+  const $ = (s, r=document) => r.querySelector(s);
+  const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
+  const yr = $("#year"); if (yr) yr.textContent = new Date().getFullYear();
+
+  function toast(msg){ const t=$("#toast"); t.textContent=msg; t.classList.add("show"); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("show"),2400); }
+
+  /* Mobile nav */
+  const toggle = $(".nav-toggle"), links = $("#nav-links");
+  toggle.addEventListener("click", () => {
+    const open = links.classList.toggle("open");
+    toggle.setAttribute("aria-expanded", String(open));
+    toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+  });
+  $$("#nav-links a").forEach(a => a.addEventListener("click", () => {
+    links.classList.remove("open"); toggle.setAttribute("aria-expanded","false"); toggle.setAttribute("aria-label","Open menu");
+  }));
+
+  /* Active nav link */
+  const navMap = {};
+  $$("#nav-links a[href^='#']").forEach(a => navMap[a.getAttribute("href").slice(1)] = a);
+  const sectionIds = Object.keys(navMap);
+  function updateActive(){
+    let current = null;
+    sectionIds.forEach(id => { const el = document.getElementById(id); if (el && el.getBoundingClientRect().top <= window.innerHeight * 0.35) current = id; });
+    Object.entries(navMap).forEach(([id,a]) => a.classList.toggle("active", id === current));
+  }
+  let ticking = false;
+  window.addEventListener("scroll", () => { if (!ticking){ ticking = true; requestAnimationFrame(() => { updateActive(); ticking = false; }); } }, {passive:true});
+  updateActive();
+
+  /* Accessible tabs */
+  function selectTab(tab){
+    const list = tab.closest("[role=tablist]");
+    $$("[role=tab]", list).forEach(t => {
+      const on = t === tab;
+      t.setAttribute("aria-selected", String(on));
+      t.tabIndex = on ? 0 : -1;
+      const p = document.getElementById(t.getAttribute("aria-controls"));
+      if (p) p.hidden = !on;
+    });
+  }
+  $$("[role=tablist]").forEach(list => {
+    const tabs = $$("[role=tab]", list);
+    tabs.forEach((t,i) => {
+      t.addEventListener("click", () => selectTab(t));
+      t.addEventListener("keydown", e => {
+        let n = null;
+        if (e.key === "ArrowRight" || e.key === "ArrowDown") n = tabs[(i+1)%tabs.length];
+        if (e.key === "ArrowLeft" || e.key === "ArrowUp") n = tabs[(i-1+tabs.length)%tabs.length];
+        if (e.key === "Home") n = tabs[0];
+        if (e.key === "End") n = tabs[tabs.length-1];
+        if (n){ e.preventDefault(); selectTab(n); n.focus(); }
+      });
+    });
+  });
+  $$("[data-ind]").forEach(a => a.addEventListener("click", () => { const t = document.getElementById(a.dataset.ind); if (t) selectTab(t); }));
+
+  /* Package buttons preselect package in form */
+  $$("[data-package]").forEach(b => b.addEventListener("click", () => { $("#c-pack").value = b.dataset.package; }));
+
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function el(tag, attrs, children){
+    const e = document.createElement(tag);
+    if (attrs) for (const k in attrs){ if (k === "text") e.textContent = attrs[k]; else if (k === "class") e.className = attrs[k]; else e.setAttribute(k, attrs[k]); }
+    (children||[]).forEach(c => c && e.appendChild(typeof c === "string" ? document.createTextNode(c) : c));
+    return e;
+  }
+
+  /* ============ INTERACTIVE PREVIEWS ============ */
+  const PILL = {draft:["pill","Draft"], review:["pill warn","Review"], approved:["pill ok","Approved"]};
+  const NEXT = {draft:"review", review:"approved", approved:"draft"};
+  const CAPS = {
+    instagram:{friendly:"Lunch just got an upgrade 🍲\nThree new bowls, made fresh every day from 12pm.\nWhich one are you trying first? 👇\n#NairobiEats #LunchSpot",
+      professional:"Introducing our new lunch menu.\nThree freshly prepared bowls, served daily from 12pm.\nVisit us or order for delivery.\n#NairobiEats #LunchSpot",
+      playful:"Plot twist: your lunch break just got delicious 😋\n3 new bowls. 0 regrets.\nTag your lunch buddy 👇\n#NairobiEats #LunchSpot"},
+    facebook:{friendly:"Good news, lunch lovers! 🎉 Our new menu is here with three fresh bowls, served every day from 12pm. Pop in or order for delivery, and tell us which one you'd like to try first!",
+      professional:"Our new lunch menu is now available. Choose from three freshly prepared bowls, served daily from 12pm, for dine-in, takeaway or delivery.",
+      playful:"Warning: our new lunch bowls may cause extreme happiness 😄 Three new flavours, every day from 12pm. Who's coming with you?"},
+    linkedin:{friendly:"Looking for an easy team lunch near the office? 🙌\nOur new menu has three fresh bowls, ready quickly for groups.\nMessage us to set up a weekly team order.",
+      professional:"Looking for a reliable team lunch near the office?\nOur new menu offers three fresh bowls, prepared quickly for group orders.\nMessage us to arrange a weekly team order.",
+      playful:"Team meetings are better with good food. Fact. 🍲\nThree new bowls, ready fast for group orders.\nSend us a message to sort out your team's Friday lunch."},
+    x:{friendly:"Our new lunch bowls are here 🍲 Fresh every day from 12pm. Which one are you trying first? #NairobiEats",
+      professional:"New lunch menu now available: three fresh bowls, served daily from 12pm. Dine in or order for delivery. #NairobiEats",
+      playful:"3 new lunch bowls. 0 regrets. Fresh from 12pm 😋 #NairobiEats"},
+    tiktok:{friendly:"HOOK: Come try our 3 new lunch bowls with me 🍲\nSCENE: Quick taste test of each bowl\nCAPTION: Which one wins? Tell us 👇 #NairobiEats #FoodTok",
+      professional:"HOOK: Our new lunch menu in 15 seconds\nSCENE: Each bowl being plated fresh\nCAPTION: Available daily from 12pm. #NairobiEats",
+      playful:"HOOK: Rating our own lunch bowls (we're biased) 😂\nSCENE: Staff taste test with scores\nCAPTION: Prove us wrong and come try them 👇 #NairobiEats #FoodTok"}
+  };
+  const SPARK = {
+    "7": {line:"M0 56 L33 46 L66 50 L100 34 L133 38 L166 24 L200 20", posts:"12", eng:"3.4%", clicks:"58"},
+    "30":{line:"M0 58 L20 52 L40 54 L60 46 L80 48 L100 40 L120 42 L140 32 L160 28 L180 30 L200 18", posts:"46", eng:"3.1%", clicks:"214"}
+  };
+  const METRICS = {
+    reach:{label:"Total reach", val:"12,480", top:"Stories", h:[62,80,45,100,70,88]},
+    eng:{label:"Avg. engagement", val:"3.1%", top:"Events", h:[58,72,40,90,66,100]},
+    clicks:{label:"Link clicks", val:"186", top:"Offers", h:[40,100,30,62,75,55]}
+  };
+  function press(group, b){ $$("button", group).forEach(x => x.setAttribute("aria-pressed", String(x === b))); }
+  function renderCaptionStudio(){
+    const p = $("#cs-plat [aria-pressed=true]").dataset.v, t = $("#cs-tone [aria-pressed=true]").dataset.v, txt = CAPS[p][t];
+    $("#cs-out").textContent = txt;
+    $("#cs-count").textContent = txt.length + (p === "x" ? " / 280 characters" : " characters");
+  }
+  renderCaptionStudio();
+
+  document.addEventListener("click", e => {
+    const chip = e.target.closest("button.chip[data-p]");
+    if (chip){
+      const mock = chip.closest(".mock");
+      $$("button.chip.sel", mock).forEach(c => c.classList.remove("sel"));
+      chip.classList.add("sel");
+      const info = $(".hv-info", chip.closest("[role=tabpanel], .mock-main") || mock);
+      if (info){ info.textContent = ""; info.append(el("b",{text:chip.textContent}), " · " + chip.dataset.p + " · " + (chip.dataset.t || "Post") + " · " + chip.dataset.s); }
+      return;
+    }
+    const cyc = e.target.closest("button[data-cycle]");
+    if (cyc){ const n = NEXT[cyc.dataset.cycle]; cyc.dataset.cycle = n; cyc.className = PILL[n][0]; cyc.textContent = PILL[n][1]; return; }
+    const act = e.target.closest("[data-appr] [data-act]");
+    if (act){
+      const row = act.closest(".appr"), pill = $(".pill", row), scope = act.closest("[data-appr]");
+      if (act.dataset.act === "approve"){ pill.className = "pill ok"; pill.textContent = "Approved"; toast("Post approved"); }
+      else { pill.className = "pill"; pill.textContent = "Changes requested"; toast("Changes requested"); }
+      const pills = $$(".appr .pill", scope);
+      const appr = pills.filter(x => x.textContent === "Approved").length, wait = pills.filter(x => x.textContent === "In review").length;
+      $$("[data-count=approved]", scope).forEach(x => x.textContent = appr);
+      $$("[data-count=waiting]", scope).forEach(x => x.textContent = wait);
+      return;
+    }
+    const f = e.target.closest("[data-filter] button");
+    if (f){
+      const grp = f.parentElement, mock = f.closest(".mock"); press(grp, f);
+      $$("button.chip", mock).forEach(c => c.classList.toggle("dim", f.dataset.f !== "all" && c.dataset.p !== f.dataset.f));
+      return;
+    }
+    const rng = e.target.closest("button[data-range]");
+    if (rng){
+      const pane = rng.closest("[role=tabpanel]"), d = SPARK[rng.dataset.range]; press(rng.parentElement, rng);
+      $("[data-k=line]", pane).setAttribute("d", d.line); $("[data-k=area]", pane).setAttribute("d", d.line + " L200 70 L0 70Z");
+      ["posts","eng","clicks"].forEach(k => $("[data-k=" + k + "]", pane).textContent = d[k]);
+      return;
+    }
+    const met = e.target.closest("button[data-metric]");
+    if (met){
+      const mock = met.closest(".mock"), m = METRICS[met.dataset.metric]; press(met.parentElement, met);
+      $$(".bar-chart span", mock).forEach((b,k) => b.style.height = m.h[k] + "%");
+      $("[data-kpi=label]", mock).textContent = m.label; $("[data-kpi=val]", mock).textContent = m.val; $("[data-kpi=top]", mock).textContent = m.top;
+      return;
+    }
+    const cs = e.target.closest("#cs-plat button, #cs-tone button");
+    if (cs){ press(cs.parentElement, cs); renderCaptionStudio(); }
+  });
+
+  /* ============ HOW IT WORKS ============ */
+  const STEPS = [
+    {t:"Business profile", d:"Everything the AI needs to sound like your business.", you:["Your goals for the next 1–3 months","Your audience, products and offers","Brand tone, logo and examples you like"], get:["A brand profile used in every AI prompt","Agreed platforms and approvers"]},
+    {t:"AI content strategy", d:"A plan before any captions get written.", you:["Feedback on the draft content pillars","Key dates: launches, holidays, events"], get:["3–5 content pillars","A posting rhythm for each platform","Monthly themes"]},
+    {t:"Content generation", d:"First drafts in minutes, shaped by your profile.", you:["Photos, product details or short notes when needed"], get:["Post ideas and captions for each platform","Hashtags and calls to action","Creative briefs for visuals"]},
+    {t:"Approval", d:"You stay in control. Nothing moves without a yes.", you:["Approve, edit or comment on each post"], get:["A clear status for every post","A record of every decision","Notifications by email or WhatsApp"]},
+    {t:"Scheduling", d:"Approved content goes out on time.", you:["Access to your scheduler, or your preferred posting routine"], get:["Posts queued at agreed times","Or ready-to-post packs sent to you"]},
+    {t:"Performance reporting", d:"Learn what works and plan the next month.", you:["Access to your platform insights"], get:["A monthly summary of what worked","Suggestions that feed next month's strategy"]}
+  ];
+  let stepIdx = 0, stepTimer = null;
+  function showStep(i){
+    stepIdx = (i + STEPS.length) % STEPS.length;
+    $$(".step-btn").forEach((b,k) => b.setAttribute("aria-pressed", String(k === stepIdx)));
+    const s = STEPS[stepIdx], box = $("#step-detail"); box.textContent = "";
+    box.append(
+      el("div",{},[el("h4",{text:"Stage " + (stepIdx+1) + " of 6"}), el("h3",{text:s.t}), el("p",{text:s.d})]),
+      el("div",{},[el("h4",{text:"What you provide"}), el("ul",{}, s.you.map(x => el("li",{text:x})))]),
+      el("div",{},[el("h4",{text:"What you get"}), el("ul",{}, s.get.map(x => el("li",{text:x})))])
+    );
+  }
+  function stopPlay(){ clearInterval(stepTimer); stepTimer = null; const p = $("#step-play"); p.textContent = "▶ Play walkthrough"; p.setAttribute("aria-pressed","false"); }
+  $$(".step-btn").forEach(b => b.addEventListener("click", () => { stopPlay(); showStep(+b.dataset.step); }));
+  $("#step-prev").addEventListener("click", () => { stopPlay(); showStep(stepIdx - 1); });
+  $("#step-next").addEventListener("click", () => { stopPlay(); showStep(stepIdx + 1); });
+  $("#step-play").addEventListener("click", () => {
+    if (stepTimer){ stopPlay(); return; }
+    const p = $("#step-play"); p.textContent = "❚❚ Pause"; p.setAttribute("aria-pressed","true");
+    showStep(stepIdx + 1);
+    stepTimer = setInterval(() => { if (stepIdx === STEPS.length - 1) stopPlay(); else showStep(stepIdx + 1); }, 3500);
+  });
+  showStep(0);
+
+  /* ============ PACKAGE RECOMMENDER ============ */
+  const PRICES = {Starter:"KES 10,000 one-off implementation", Professional:"KES 25,000 one-off implementation", Business:"From KES 45,000 one-off, quoted to scope"};
+  function recommend(){
+    const plats = +$("#r-plat").value; $("#r-plat-val").textContent = plats;
+    const brands = $("input[name=r-brands]:checked").value;
+    const needs = $$("#r-needs input:checked").map(i => i.value);
+    let pkg, why = [];
+    if (brands !== "1" || needs.includes("integrations") || needs.includes("auto-reports") || plats >= 5){
+      pkg = "Business";
+      if (brands !== "1") why.push("Manages more than one brand or client account");
+      if (needs.includes("integrations")) why.push("Includes custom integrations with your CRM, forms or Make.com");
+      if (needs.includes("auto-reports")) why.push("Includes automated weekly and monthly reporting");
+      if (plats >= 5) why.push("Covers all major platforms");
+      why.push("Role-based approvals, training and documentation");
+    } else if (plats >= 3 || needs.includes("multi-approval") || needs.includes("scheduling")){
+      pkg = "Professional";
+      if (plats >= 3) why.push("Covers up to 4 platforms (you need " + plats + ")");
+      if (needs.includes("multi-approval")) why.push("Includes multi-step approval with notifications");
+      if (needs.includes("scheduling")) why.push("Includes scheduling setup in your chosen tool");
+      why.push("Includes a custom strategy, creative briefs and a monthly report with insights");
+    } else {
+      pkg = "Starter";
+      why.push("Covers up to 2 platforms (you need " + plats + ")", "Includes a simple one-step approval", "The most affordable way to get organised");
+    }
+    $("#r-name").textContent = pkg; $("#r-price").textContent = PRICES[pkg];
+    const ul = $("#r-why"); ul.textContent = ""; why.forEach(w => ul.appendChild(el("li",{text:w})));
+    const c = $("#r-choose"); c.dataset.package = pkg; c.textContent = pkg === "Business" ? "Request a Business quote" : "Choose " + pkg;
+    $$(".price[data-pkg]").forEach(a => a.classList.toggle("recommended", a.dataset.pkg === pkg));
+  }
+  $$("#reco input").forEach(i => i.addEventListener("input", recommend));
+  $$("#reco input").forEach(i => i.addEventListener("change", recommend));
+  recommend();
+
+  /* ============ FAQ SEARCH ============ */
+  const fq = $("#faq-q");
+  fq.addEventListener("input", () => {
+    const q = fq.value.trim().toLowerCase(); let n = 0;
+    $$(".faq details").forEach(d => {
+      const hit = !q || d.textContent.toLowerCase().includes(q);
+      d.hidden = !hit; if (hit) n++;
+      if (q) d.open = hit; else d.open = false;
+    });
+    $("#faq-empty").style.display = n ? "none" : "block";
+  });
+
+  /* ============ REVEAL ON SCROLL ============ */
+  const revealEls = $$(".section-head, .grid > .card, .price, .steps li, .ind-panel, .reco, .cost, .table-wrap, .showcase");
+  if ("IntersectionObserver" in window && !reduceMotion){
+    document.documentElement.classList.add("js");
+    revealEls.forEach(x => x.classList.add("reveal"));
+    const rio = new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting){ en.target.classList.add("in"); rio.unobserve(en.target); } }), {rootMargin:"0px 0px -8% 0px"});
+    revealEls.forEach(x => rio.observe(x));
+  }
+
+  /* ================= CONTACT FORM ================= */
+  const form = $("#contact-form"), statusBox = $("#form-status");
+  const emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+  const phoneRe = /^\+?[0-9\s\-()]{7,20}$/;
+
+  function setInvalid(input, bad){
+    const f = input.closest(".field"); if (f) f.classList.toggle("invalid", bad);
+    input.setAttribute("aria-invalid", String(bad));
+  }
+  function validate(){
+    let firstBad = null;
+    const checks = [
+      ["#c-name", v => v.trim().length >= 2],
+      ["#c-email", v => emailRe.test(v.trim())],
+      ["#c-phone", v => v.trim() === "" || phoneRe.test(v.trim())],
+      ["#c-type", v => v !== ""],
+      ["#c-req", v => v.trim().length >= 5]
+    ];
+    checks.forEach(([sel, fn]) => { const i = $(sel); const bad = !fn(i.value); setInvalid(i, bad); if (bad && !firstBad) firstBad = i; });
+    const consent = $("#c-consent"), ce = $("#consent-error");
+    ce.style.display = consent.checked ? "none" : "block";
+    if (!consent.checked && !firstBad) firstBad = consent;
+    if (firstBad) firstBad.focus();
+    return !firstBad;
+  }
+  $$("#contact-form input, #contact-form select, #contact-form textarea").forEach(i => i.addEventListener("input", () => {
+    if (i.getAttribute("aria-invalid") === "true") setInvalid(i, false);
+    if (i.id === "c-consent") $("#consent-error").style.display = "none";
+  }));
+
+  function collect(){
+    return {
+      name: $("#c-name").value.trim(), business: $("#c-biz").value.trim(), email: $("#c-email").value.trim(),
+      phone: $("#c-phone").value.trim(), business_type: $("#c-type").value, package: $("#c-pack").value,
+      platforms: $$("#c-platforms input:checked").map(i => i.value).join(", ") || "Not specified",
+      requirements: $("#c-req").value.trim(), preferred_time: $("#c-time").value ? $("#c-time").value.replace("T"," ") + " EAT" : "Flexible"
+    };
+  }
+  function summary(d){
+    return "SocialFlow AI consultation request\n" +
+      "Name: " + d.name + "\nBusiness: " + (d.business || "-") + "\nEmail: " + d.email + "\nPhone: " + (d.phone || "-") +
+      "\nBusiness type: " + d.business_type + "\nPackage: " + d.package + "\nPlatforms: " + d.platforms +
+      "\nPreferred time: " + d.preferred_time + "\nRequirements: " + d.requirements;
+  }
+  function showStatus(kind, title, text, d){
+    statusBox.className = "form-status show " + kind;
+    statusBox.textContent = "";
+    statusBox.appendChild(el("h4",{text:title}));
+    statusBox.appendChild(el("p",{style:"margin:0", text:text}));
+    if (d){
+      const msg = summary(d);
+      const wa = el("a",{class:"btn btn-wa btn-sm", href:"https://wa.me/" + CONFIG.whatsapp + "?text=" + encodeURIComponent(msg), target:"_blank", rel:"noopener noreferrer"},["Send on WhatsApp"]);
+      const em = el("a",{class:"btn btn-outline btn-sm", href:"mailto:" + CONFIG.email + "?subject=" + encodeURIComponent("SocialFlow AI consultation: " + (d.business || d.name)) + "&body=" + encodeURIComponent(msg)},["Send by email"]);
+      statusBox.appendChild(el("div",{class:"btns"},[wa, em]));
+      statusBox.appendChild(el("p",{style:"margin:10px 0 0;font-size:.85rem", text:"If neither opens, message +254 792 002 230 or email " + CONFIG.email + " directly."}));
+    }
+  }
+
+  const req = $("#c-req"), reqCount = $("#c-req-count");
+  req.addEventListener("input", () => { reqCount.textContent = req.value.length + " / 1500"; });
+  (function(){ const d = new Date(Date.now() - new Date().getTimezoneOffset()*60000); $("#c-time").min = d.toISOString().slice(0,16); })();
+  form.addEventListener("reset", () => { reqCount.textContent = "0 / 1500"; });
+
+  form.addEventListener("submit", async e => {
+    e.preventDefault();
+    if ($("#c-company").value) return; // spam honeypot
+    if (!validate()) return;
+    const d = collect(), btn = $("#c-submit");
+    if (CONFIG.formEndpoint){
+      btn.disabled = true; btn.textContent = "Sending…";
+      try{
+        const r = await fetch(CONFIG.formEndpoint, {method:"POST", headers:{"Accept":"application/json","Content-Type":"application/json"}, body: JSON.stringify(Object.assign({_subject:"SocialFlow AI consultation request"}, d))});
+        if (!r.ok) throw new Error("bad status");
+        form.reset();
+        showStatus("ok","Thank you, your request has been sent.","You'll receive a reply by email or WhatsApp to confirm your consultation time.");
+      }catch(_){
+        showStatus("err","We couldn't send the form just now.","Please send your request on WhatsApp or by email instead. Your details are filled in for you.", d);
+      }finally{ btn.disabled = false; btn.textContent = "Request consultation"; }
+    } else {
+      showStatus("ok","Almost done: choose how to send your request.","Your details are ready. Pick WhatsApp or email to send them, and you'll get a reply to confirm your consultation time.", d);
+    }
+    statusBox.scrollIntoView({block:"nearest"});
+  });
+})();
+</script>
+</body>
+</html>

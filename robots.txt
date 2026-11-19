@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yomie-commits.github.io/SocialFlowAI/sitemap.xml
